@@ -1,0 +1,294 @@
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  color: var(--text-color-white);
+  font-family: 'Alfa Slab One';
+  font-family: 'Work Sans';
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.2;
+  position: relative;
+
+  padding: 0 20px 0 0;
+  width: 100%;
+
+  @media (max-width:992px){
+    padding: 0;
+  }
+
+  &--help {
+    min-height: auto;
+
+    section.help {
+      &::before {
+        display: none;
+      }
+    }
+  }
+
+  @media (max-width:380px) {
+    padding: 0px 10px;
+  }
+
+  .main {
+    padding-top: 60px;
+
+    &--rest {
+      display: block;
+      padding-top: 70px;
+
+      section.help-inside {
+        &::before {
+          display: none;
+        }
+      }
+    }
+
+    &--responsible {
+      margin-bottom: 40px;
+    }
+
+    @media (max-width:600px) {
+      margin-top: 50px;
+    }
+
+    @media (max-width:479px) {
+      padding-top: 75px;
+    }
+
+    &-contacts {
+      display: block;
+
+    }
+  }
+
+  &--contacts {
+    min-height: 100%;
+
+    @media (max-width:600px) {
+      margin-top: 40px;
+    }
+  }
+
+
+  section {
+    width: 100%;
+    position: relative;
+    margin-bottom: 60px;
+
+    @media (max-width:767px){
+      margin-bottom: 40px;
+    }
+
+    &.accordion {
+      &::before {
+        display: none;
+      }
+    }
+
+
+    &::before {
+      position: absolute;
+      content: '';
+      bottom: -60px;
+      max-width: 1300px;
+      width: 100%;
+      height: 12px;
+      background:url(../../images/icons/sections-decor/title-decoration.svg) no-repeat center center / contain;
+      padding: 0px 20px;
+      margin: 20px auto;
+      border: none;
+      display: block;
+
+      @media (max-width:380px) {
+        padding: 0px 15px;
+        margin: 15px auto;
+        bottom: -40px;
+      }
+    }
+  }
+
+  h1 {
+    font-size: 32px;
+    margin-bottom: 10px;
+
+    cursor: default;
+
+    @media (max-width:767px) {
+      font-size: 40px;
+    }
+
+    @media (max-width:600px) {
+      font-size: 36px;
+    }
+
+    @media (max-width:479px) {
+      font-size: 30px;
+    }
+  }
+
+  h2 {
+    line-height: 28px;
+    font-size: 28px;
+    margin-bottom: 20px;
+
+    @media (max-width:767px) {
+      font-size: 22px;
+      line-height: 24px;
+    }
+
+ 
+  }
+
+  h3 {
+    font-size: 20px;
+    line-height: 22px;
+    margin-bottom: 8px;
+    margin-top: 25px;
+
+    @media (max-width:1200px) {
+      font-size: 18px;
+    }
+
+    @media (max-width:767px) {
+      font-size: 16px;
+    }
+
+   
+  }
+
+  h4 {
+    font-size: 18px;
+    margin-bottom: 10px;
+    margin-top: 15px;
+  }
+
+  ul {
+    li {
+      position: relative;
+      padding-left: 14px;
+      // margin-bottom: 8px;
+      line-height: 1.3;
+      font-size: 16px;
+ color: var(--text-color-secondary);
+      @media (max-width:1200px) {
+        font-size: 14px;
+        margin-bottom: 6px;
+      }
+
+      @media (max-width:600px) {
+        font-size: 14px;
+      }
+
+      &::before {
+        content: '';
+        position: absolute;
+        left: 0px;
+        top: 5px;
+        transform: translateY(50%);
+        width: 5px;
+        height: 5px;
+        border-radius: 50%;
+        background-color: var(--text-color-white);
+      }
+    }
+
+
+  }
+
+  ol {
+    padding-left: 14px;
+
+    @media (max-width:767px) {
+      padding-left: 10px;
+    }
+
+    li {
+      margin-bottom: 8px;
+      line-height: 1.3;
+      font-size: 16px;
+ color: var(--text-color-secondary);
+      @media (max-width:1200px) {
+        font-size: 14px;
+        margin-bottom: 6px;
+      }
+
+      @media (max-width:600px) {
+        font-size: 13px;
+      }
+
+      &::before {
+        display: none;
+      }
+    }
+  }
+
+  .header__button-link--login-mobile {
+    width: 100%;
+    font-size: 16px;
+  }
+
+  .header__button-link--registration-mobile {
+    width: 100%;
+    font-size: 16px;
+  }
+
+  p {
+    cursor: default;
+    margin-bottom: 8px;
+    font-size: 16px;
+    color: var(--text-color-secondary);
+
+    @media (max-width:600px) {
+      font-size: 14px;
+    }
+  }
+
+  footer {
+    flex: 0;
+  }
+
+  a,
+  button {
+    cursor: pointer;
+  }
+
+
+  h1,
+  h2,
+  h3,
+  h4 {
+    font-weight: 700;
+
+  }
+
+  .active {
+    display: block;
+  }
+
+  .open {
+    display: block;
+  }
+
+  .heart {
+    width: 24px;
+    height: 24px;
+    transform-origin: center;
+    cursor: pointer;
+    color: var(--color-light-grey-3);
+    transition: color .25s ease-in-out;
+  }
+
+  .log-in,
+  .registration {
+    img {
+      margin: 20px auto;
+      text-align: center;
+      display: block;
+      cursor: pointer;
+
+    }
+  }
+
+}

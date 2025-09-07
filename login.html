@@ -1,0 +1,828 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" type="image/x-icon" href="./images/favicon/favicon.ico" />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon/favicon-32x32.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="16x16"
+      href="./images/favicon/favicon-16x16.png"
+    />
+
+    <title>Fat Pirate Casino - login</title>
+
+    <meta property="og:title" content="Fat Pirate" />
+    <meta property="og:description" content="Fat Pirate Casino" />
+    <meta property="og:type" content="website" />
+    <meta property="og:image" content="./images/icons/fatpirate400x400.webp" />
+
+    <link rel="stylesheet" href="./css/main.min.css" />
+  </head>
+
+  <body class="body">
+    <div class="wrapper">
+      <header class="header">
+        <div class="container container--header">
+          <div class="header__wrapper">
+            <button class="header__burger" aria-label="burger">
+              <img
+                src="./images/icons/burger/burger.svg"
+                loading="lazy"
+                height="30"
+                width="30"
+                alt="open menu"
+                class="header__burger-icon"
+              />
+              <img
+                src="./images/icons/burger/windowclose.svg"
+                loading="lazy"
+                height="30"
+                width="30"
+                alt="close menu"
+                class="header__burger-icon header__burger-icon--active"
+              />
+            </button>
+            <div class="header__logo-wrapper">
+              <a href="./index.html" class="header__logo-link">
+                <img
+                  class="header__logo"
+                  width="68"
+                  height="42"
+                  src="./images/icons/logo-main.webp"
+                  alt="Fat Pirate logo"
+                />
+              </a>
+            </div>
+
+            <nav class="header__nav">
+              <div class="header__buttons-wrapper">
+                <div class="header__button">
+                  <a
+                    href="./login.html"
+                    aria-label="log-in"
+                    class="header__button-link link--login"
+                    >LOG IN</a
+                  >
+                </div>
+                <div class="header__button">
+                  <button
+                    aria-label="registration"
+                    class="header__button-link registration__button tike"
+                  >REGISTER</button>
+                </div>
+              </div>
+            </nav>
+
+            <!-- Мобильное меню -->
+
+            <div class="header__mobile-menu">
+              <div class="header__mobile-menu-header">
+                <img
+                  src="./images/icons/logo-main.webp"
+                  width="80"
+                  height="55"
+                  loading="lazy"
+                  alt="logo - Fat Pirate Casino"
+                />
+              </div>
+              <div class="header__mobile-nav-items">
+                <div class="header__mobile-nav-links-wrapper">
+                  <div>
+                    <a
+                      href="./login.html"
+                      aria-label="log-in"
+                      class="link--login header__button-link--login-mobile"
+                      >Log in</a
+                    >
+                  </div>
+                  <div>
+                    <button
+                      aria-label="registration"
+                      class="registration__button header__button-link--registration-mobile tike"
+                    >REGISTER</button>
+                  </div>
+                </div>
+
+                <div class="header__mobile-nav-item">
+                  <a
+                    href="./app.html"
+                    rel="nofollow"
+                    class="header__mobile-nav-link"
+                    ><img
+                      loading="lazy"
+                      width="30"
+                      height="28"
+                      src="./images/icons/menu-icons/app.png"
+                      loading="lazy"
+                      width="30"
+                      height="30"
+                      alt="app"
+                    />App</a
+                  >
+                </div>
+                <div class="header__mobile-nav-item">
+                  <a
+                    href="./betting.html"
+                    rel="nofollow"
+                    class="header__mobile-nav-link"
+                    ><img
+                      loading="lazy"
+                      width="30"
+                      height="28"
+                      src="./images/icons/menu-icons/betting.png"
+                      alt="betting"
+                    />Betting</a
+                  >
+                </div>
+
+                <div class="header__mobile-nav-item">
+                  <a
+                    href="./bonus.html"
+                    rel="nofollow"
+                    class="header__mobile-nav-link"
+                    ><img
+                      loading="lazy"
+                      width="30"
+                      height="28"
+                      src="./images/icons/menu-icons/bonus.png"
+                      alt="bonus"
+                    />Bonus</a
+                  >
+                </div>
+
+                <div class="header__mobile-nav-item">
+                  <a
+                    href="./no-deposit-bonus.html"
+                    rel="nofollow"
+                    class="header__mobile-nav-link"
+                    ><img
+                      loading="lazy"
+                      width="30"
+                      height="28"
+                      src="./images/icons/menu-icons/no-dep.png"
+                      alt="no-dep"
+                    />No Deposit Bonus</a
+                  >
+                </div>
+                <div class="header__mobile-nav-item">
+                  <a
+                    href="./review-trustpilot.html"
+                    rel="nofollow"
+                    class="header__mobile-nav-link"
+                    ><img
+                      loading="lazy"
+                      width="30"
+                      height="28"
+                      src="./images/icons/menu-icons/Review.png"
+                      alt="Review"
+                    />Review</a
+                  >
+                </div>
+                <div class="header__mobile-nav-item">
+                  <a
+                    href="./free-spins.html"
+                    rel="nofollow"
+                    class="header__mobile-nav-link"
+                    ><img
+                      loading="lazy"
+                      width="30"
+                      height="28"
+                      src="./images/icons/menu-icons/fs.png"
+                      alt="Free Spins"
+                    />Free Spins</a
+                  >
+                </div>
+                <div class="header__mobile-nav-item">
+                  <a
+                    href="./promo-code.html"
+                    rel="nofollow"
+                    class="header__mobile-nav-link"
+                    ><img
+                      loading="lazy"
+                      width="30"
+                      height="28"
+                      src="./images/icons/menu-icons/promo.png"
+                      alt="Promo Code"
+                    />Promo Code</a
+                  >
+                </div>
+                <div class="header__mobile-nav-item has-submenu">
+                  <div class="header__mobile-nav-link-wrapper">
+                    <a
+                      href="./slots.html"
+                      class="header__mobile-nav-link header__mobile-nav-link--slots"
+                      ><img
+                        src="./images/icons/menu-icons/Slots.png"
+                        loading="lazy"
+                        width="30"
+                        height="28"
+                        alt="Slots"
+                      />Slots</a
+                    >
+                    <button class="submenu-toggle">
+                      <img
+                        src="./images/icons/arrow-accordion.svg"
+                        loading="lazy"
+                        width="20"
+                        height="20"
+                        alt="toggle"
+                      />
+                    </button>
+                  </div>
+                  <div class="header__submenu">
+                    <a href="./plinko.html" class="header__submenu-link"
+                      >Plinko</a
+                    >
+                    <a href="./bingo.html" class="header__submenu-link"
+                      >Bingo</a
+                    >
+                  </div>
+                </div>
+                <div class="header__mobile-nav-item">
+                  <a
+                    href="./withdrawal-times.html"
+                    rel="nofollow"
+                    class="header__mobile-nav-link"
+                    ><img
+                      loading="lazy"
+                      width="30"
+                      height="28"
+                      src="./images/icons/menu-icons/wt.png"
+                      alt="Withdrawal Times"
+                    />Withdrawal Times</a
+                  >
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </header>
+
+      <main class="main">
+        <div class="body-wrapper">
+          <div class="header__overlay"></div>
+          <div class="menu-wrapper">
+            <nav class="menu">
+              <div class="menu__decor"></div>
+
+              <ul class="menu__list">
+                <li class="menu__item">
+                  <a href="./app.html" rel="nofollow" class="menu__link"
+                    ><img
+                      loading="lazy"
+                      width="30"
+                      height="28"
+                      src="./images/icons/menu-icons/app.png"
+                      loading="lazy"
+                      width="30"
+                      height="30"
+                      alt="app"
+                    />App</a
+                  >
+                </li>
+                <li class="menu__item">
+                  <a href="./betting.html" rel="nofollow" class="menu__link"
+                    ><img
+                      loading="lazy"
+                      width="30"
+                      height="28"
+                      src="./images/icons/menu-icons/betting.png"
+                      alt="betting"
+                    />Betting</a
+                  >
+                </li>
+
+                <li class="menu__item">
+                  <a href="./bonus.html" rel="nofollow" class="menu__link"
+                    ><img
+                      loading="lazy"
+                      width="30"
+                      height="28"
+                      src="./images/icons/menu-icons/bonus.png"
+                      alt="bonus"
+                    />Bonus</a
+                  >
+                </li>
+
+                <li class="menu__item">
+                  <a
+                    href="./no-deposit-bonus.html"
+                    rel="nofollow"
+                    class="menu__link"
+                    ><img
+                      loading="lazy"
+                      width="30"
+                      height="28"
+                      src="./images/icons/menu-icons/no-dep.png"
+                      alt="no-dep"
+                    />No Deposit Bonus</a
+                  >
+                </li>
+
+                <li class="menu__item">
+                  <a
+                    href="./review-trustpilot.html"
+                    rel="nofollow"
+                    class="menu__link"
+                    ><img
+                      loading="lazy"
+                      width="30"
+                      height="28"
+                      src="./images/icons/menu-icons/Review.png"
+                      alt="Review"
+                    />Review</a
+                  >
+                </li>
+
+                <li class="menu__item">
+                  <a href="./free-spins.html" rel="nofollow" class="menu__link"
+                    ><img
+                      loading="lazy"
+                      width="30"
+                      height="28"
+                      src="./images/icons/menu-icons/fs.png"
+                      alt="Free Spins"
+                    />Free Spins</a
+                  >
+                </li>
+                <li class="menu__item">
+                  <a href="./promo-code.html" rel="nofollow" class="menu__link"
+                    ><img
+                      loading="lazy"
+                      width="30"
+                      height="28"
+                      src="./images/icons/menu-icons/promo.png"
+                      alt="Promo Code"
+                    />Promo Code</a
+                  >
+                </li>
+                <li class="menu__item">
+                  <a
+                    href="./slots.html"
+                    rel="nofollow"
+                    class="menu__link menu__link-with-submenu"
+                  >
+                    <span class="menu__text"
+                      ><img
+                        src="./images/icons/menu-icons/Slots.png"
+                        alt="Slots"
+                      />Slots</span
+                    >
+                    <button class="menu__submenu-toggle" data-submenu-toggle>
+                      <img
+                        src="./images/icons/arrow-accordion.svg"
+                        loading="lazy"
+                        width="20"
+                        height="20"
+                        alt="Arrow"
+                        class="menu__arrow"
+                      />
+                    </button>
+                  </a>
+                  <ul class="menu__dropdown">
+                    <li class="menu__item">
+                      <a href="./plinko.html" rel="nofollow" class="menu__link"
+                        >Plinko</a
+                      >
+                    </li>
+                    <li class="menu__item">
+                      <a href="./bingo.html" rel="nofollow" class="menu__link"
+                        >Bingo</a
+                      >
+                    </li>
+                  </ul>
+                </li>
+                <li class="menu__item">
+                  <a
+                    href="./withdrawal-times.html"
+                    rel="nofollow"
+                    class="menu__link"
+                    ><img
+                      loading="lazy"
+                      width="30"
+                      height="28"
+                      src="./images/icons/menu-icons/wt.png"
+                      alt="Withdrawal Times"
+                    />Withdrawal Times</a
+                  >
+                </li>
+              </ul>
+            </nav>
+          </div>
+          <div class="main-content__wrapper">
+            <section class="promo" id="promo">
+              <h2>Fat Pirate Casino Login</h2>
+              <p>
+                Getting started at Fat Pirate Casino is fast, simple, and
+                secure. The platform has been designed with a focus on
+                usability, offering players a smooth experience from the very
+                first click. Whether you're logging in from a desktop or using
+                your phone on the go, the Fat Pirate Casino login process is
+                seamless, giving you immediate access to slots, sports betting,
+                and promotions without any fuss.
+              </p>
+              <div class="login-image-wrapper">
+                <img
+                  loading="lazy"
+                  width="542"
+                  height="448"
+                  class="tike"
+                  src="./images/Screenshots/login.webp"
+                  alt="log-in"
+                />
+              </div>
+              <p>
+                Creating an account is just as straightforward. New players can
+                register using a traditional email sign-up form in less than a
+                minute. Once registered, the login page allows quick and safe
+                entry to your account, with all the latest features available—no
+                app required. If you're returning to claim bonuses or spin your
+                favourites, the Fat Pirate slots login takes you straight back
+                into the action, so you can set sail without delay.
+              </p>
+            </section>
+            <section>
+              <h2>Simple and Secure Registration Process</h2>
+              <p>
+                Registering at Fat Pirate Casino is both easy and safe, giving
+                new players quick access to the full world of games, promotions,
+                and rewards. The process has been designed to meet modern
+                security standards while keeping things simple. To open an
+                account, users must provide basic personal details and agree to
+                the platform's terms and conditions. In some cases, identity
+                verification may be required before withdrawals can be
+                processed.
+              </p>
+              <p>
+                Only one account is permitted per player, household, IP address,
+                or device. This policy is in place to maintain fair play and
+                protect bonus systems from abuse. Duplicate accounts may be
+                blocked, and associated winnings may be voided. It's also
+                important that players keep their login credentials secure, as
+                they are fully responsible for any activity on their account.
+              </p>
+              <p>
+                Fat Pirate Casino may request documents such as a valid photo ID
+                or proof of address to verify your identity. This step ensures
+                compliance with anti-fraud and anti-money laundering regulations
+                and also adds a crucial layer of protection for players. Once
+                your account is verified, you'll be ready to explore all that
+                the platform offers — from exciting slots to live sports betting
+                — with just a single login.
+              </p>
+            </section>
+            <section>
+              <h2>Advantages of Registering at Fat Pirate Casino</h2>
+              <div class="login-image-wrapper">
+                <img
+                  loading="lazy"
+                  width="542"
+                  height="448"
+                  class="tike"
+                  src="./images/Screenshots/registration.webp"
+                  alt="log-in"
+                />
+              </div>
+              <p>
+                Creating an account at Fat Pirate Casino opens the door to a
+                world of themed entertainment, generous rewards, and smooth
+                navigation — all wrapped in a secure, user-friendly package. The
+                registration process is quick and reliable, ensuring players can
+                get started with confidence while benefiting from a fair and
+                regulated gaming environment.
+              </p>
+              <p>
+                With a single registration, players gain access to hundreds of
+                games, from thrilling video slots to sports betting markets.
+                Signing up also unlocks exclusive promotions, including the
+                chance to activate offers such as the Fat Pirate Casino login no
+                deposit bonus, when available.
+              </p>
+              <p>
+                To protect the integrity of the platform, Fat Pirate allows only
+                one account per player, household, or device. This helps prevent
+                abuse and ensures fair play for all users. Occasionally, players
+                may be asked to submit ID or proof of address to verify their
+                identity, especially before withdrawals — a step that not only
+                complies with industry standards but also keeps your account
+                safe and secure.
+              </p>
+            </section>
+            <section>
+              <h2>How to Access Your Fat Pirate Account</h2>
+              <p>
+                Fat Pirate Casino login free play is quick, secure, and
+                user-friendly, whether you're playing from your desktop browser
+                or mobile device. The platform is built for smooth access across
+                all systems, so players in the UK and beyond can enjoy seamless
+                navigation, betting, and bonuses from anywhere. If needed,
+                verification steps may apply to keep your account safe and fully
+                compliant with platform policies.
+              </p>
+              <p>
+                Once you've successfully registered, your next step is to
+                complete the Fat Pirate log in and start exploring everything
+                the site has to offer — from slots and tournaments to sports
+                betting and bonus rewards. If you're logging in for the first
+                time or using a new device, you may be prompted to verify your
+                identity for added protection. Should any issues arise, support
+                is always available to assist you.
+              </p>
+              <h3>Step-by-Step FatPirate Login Process</h3>
+              <p>
+                The Fat Pirate Casino UK login takes only a few seconds and
+                ensures full access to all gaming features, promotions, and
+                account tools. Follow these simple steps to complete your login
+                quickly and securely:
+              </p>
+              <ol>
+                <li>
+                  <strong>Go to the Official Fat Pirate Casino Site</strong
+                  >:<strong> </strong>Open your browser and head to the official
+                  website. For UK players, ensure you’re using the verified
+                  casino login page for secure access.
+                </li>
+                <li>
+                  <strong>Enter Your Login Credentials</strong>:<strong
+                  > </strong>Click the login icon in the top-right corner of the
+                  homepage. Enter your registered email or username and your
+                  password.
+                </li>
+                <li>
+                  <strong>Verify Your Access If Required</strong>:<strong
+                  > </strong>In some cases, you may need to complete a 2FA code
+                  or verify your login through email or SMS, especially when
+                  accessing from a new device or region.
+                </li>
+                <li>
+                  <strong>Access Your Account Dashboard</strong>:<strong
+                  > </strong>Once logged in, your login will take you straight
+                  to the dashboard, where you can deposit funds, place bets,
+                  claim promotions, or jump straight into the action with your
+                  favourite games.
+                </li>
+              </ol>
+            </section>
+            <section>
+              <h2>Mobile Login for On-the-Go Gaming</h2>
+              <p>
+                Suppose you prefer to spin the reels or place bets while on the
+                move, Fat Pirate Casino has you covered. The platform is fully
+                optimised for mobile browsers, allowing players to access their
+                accounts quickly and securely — no app download is required.
+                Whether you're using iOS or Android, the Fat Pirate Casino login
+                page works flawlessly across devices, offering the same features
+                and fast loading times as the desktop version.
+              </p>
+              <p>
+                Each time you access your account on mobile, you'll be prompted
+                to enter your login details to ensure complete account security.
+                Fat Pirate does not store passwords, so it's important to keep
+                your credentials safe and never share them. Should you encounter
+                any login issues, the support crew is always ready to assist.
+              </p>
+            </section>
+            <section>
+              <h2>Why Logging In at Fat Pirate is Worth It</h2>
+              <p>
+                Completing the Fat Pirate login isn't just a technical step —
+                it's your gateway to a fully personalised, secure, and immersive
+                gaming experience. With one login, players unlock the entire Fat
+                Pirate world, from spinning the latest slot releases to betting
+                on live sports and claiming exclusive bonus offers. Everything
+                on the platform is tied to your player profile, so you're always
+                just a click away from your next big win.
+              </p>
+              <p>
+                The Fat Pirate Casino login gives you access to a wide range of
+                features, including your account dashboard, loyalty rewards,
+                transaction history, and real-time tournament standings. You can
+                manage your funds, view active bonuses, check wagering progress,
+                and more — all from one place. For returning players, this means
+                you can jump back into the action instantly without wasting
+                time.
+              </p>
+              <p>
+                One of the platform's standout strengths is its multi-device
+                compatibility. Whether you're on a desktop, tablet, or
+                smartphone, you can switch devices effortlessly and pick up
+                right where you left off. The casino login page is fully
+                responsive and protected by advanced encryption protocols,
+                ensuring your sessions are not only smooth but also secure.
+              </p>
+            </section>
+            <section>
+              <h2>Easy and Secure Access to Your Account</h2>
+              <p>
+                Creating and accessing your account at Fat Pirate Casino is
+                designed to be as smooth and secure as the platform itself. From
+                the moment you complete your registration, you'll benefit from
+                fast logins, robust account protection, and full access to
+                everything the site has to offer — from bonuses and slots to
+                sports betting and tournaments.
+              </p>
+              <p>
+                The Fat Pirate Casino login process is streamlined for all
+                devices, allowing players to sign in easily via email and
+                password. Mobile users can enjoy the full experience directly
+                through their browser without needing an app. To maintain a safe
+                gaming environment, the casino may request ID verification
+                before unlocking all features like withdrawals and high-value
+                promotions.
+              </p>
+              <p>
+                Account security remains a top priority. Players are expected to
+                keep their Fat Pirate login details confidential at all times,
+                and any suspicious activity may trigger temporary restrictions
+                until resolved. Fortunately, 24/7 support is available to help
+                with recovery or access issues.
+              </p>
+              <p>
+                In short, Fat Pirate makes logging in easy, but never
+                compromises on safety.
+              </p>
+            </section>
+            <section class="accordion">
+              <h2>FAQ</h2>
+
+              <div class="accordion-item">
+                <h3 class="accordion-title">
+                  How do I log in to my Fat Pirate Casino account?
+                </h3>
+                <p class="accordion-content">
+                  To log in, simply visit the official website and click on the
+                  “Login” button in the top corner. Enter your registered email
+                  or username and password, then hit “Sign In” to access your
+                  account. If you're having trouble with the Fat Pirate Casino
+                  login, double-check your details or reset your password using
+                  the on-site recovery tool.
+                </p>
+              </div>
+
+              <div class="accordion-item">
+                <h3 class="accordion-title">
+                  Do I need to register to play for real money?
+                </h3>
+                <p class="accordion-content">
+                  Yes, to enjoy real-money gameplay at Fatpirate, you must first
+                  register an account. This includes completing the sign-up
+                  form, providing your personal information, and verifying your
+                  identity if requested. Without registration, you won’t be able
+                  to deposit, place bets, or withdraw funds.
+                </p>
+              </div>
+
+              <div class="accordion-item">
+                <h3 class="accordion-title">
+                  Can I register using a social media account?
+                </h3>
+                <p class="accordion-content">
+                  Currently, Fat Pirate Casino does not offer registration via
+                  social media. All players must create an account manually by
+                  filling in their details through the standard registration
+                  form. Account verification may also be required before full
+                  access is granted.
+                </p>
+              </div>
+
+              <div class="accordion-item">
+                <h3 class="accordion-title">
+                  Does Fat Pirate Casino have a mobile app for login?
+                </h3>
+                <p class="accordion-content">
+                  At this time, Fatpirate does not offer a dedicated mobile app.
+                  However, the mobile version of the website is fully responsive
+                  and works perfectly on both iOS and Android. You can complete
+                  your Fat Pirate login directly through your browser for quick
+                  and secure access on the go.
+                </p>
+              </div>
+
+              <div class="accordion-item">
+                <h3 class="accordion-title">Is the login process safe?</h3>
+                <p class="accordion-content">
+                  Absolutely. The Fat Pirate Casino login system is protected by
+                  advanced encryption and security protocols. All players are
+                  responsible for safeguarding their login credentials, and it’s
+                  recommended to log out after each session, especially when
+                  playing from shared or mobile devices.
+                </p>
+              </div>
+            </section>
+          </div>
+        </div>
+      </main>
+    </div>
+
+    <footer class="footer">
+      <div class="footer__wrapper">
+        <div class="providers">
+          <div class="paySystems__wrapper">
+            <div class="paySystems__item">
+              <img
+                src="./images/icons/paySystems/visalarge.svg"
+                width="130"
+                height="76"
+                alt="Visa"
+                loading="lazy"
+              />
+            </div>
+            <div class="paySystems__item">
+              <img
+                src="./images/icons/paySystems/mastercardlarge.svg"
+                width="130"
+                height="76"
+                alt="MasterCard"
+                loading="lazy"
+              />
+            </div>
+            <div class="paySystems__item">
+              <img
+                src="./images/icons/paySystems/interac-2.svg"
+                width="130"
+                height="76"
+                alt="Interac"
+                loading="lazy"
+              />
+            </div>
+          </div>
+        </div>
+
+        <div class="footer__main">
+          <nav class="footer__nav">
+            <ul class="footer__nav-list">
+              <li class="footer__nav-item">
+                <a href="./contacts.html" class="footer__nav-link">Contacts</a>
+              </li>
+              <li class="footer__nav-item">
+                <a href="./policy.html" class="footer__nav-link"
+                  >Privacy Notice</a
+                >
+              </li>
+              <li class="footer__nav-item">
+                <a href="./terms.html" class="footer__nav-link"
+                  >Terms & Conditions</a
+                >
+              </li>
+              <li class="footer__nav-item">
+                <a href="./responsible-gaming.html" class="footer__nav-link"
+                  >Responsible Gambling</a
+                >
+              </li>
+              <li class="footer__nav-item">
+                <a href="./help-centre.html" class="footer__nav-link"
+                  >Help Centre</a
+                >
+              </li>
+            </ul>
+          </nav>
+        </div>
+        <div class="footer__images-info">
+          <img
+            src="./images/icons/18+.svg"
+            height="40"
+            width="40"
+            loading="lazy"
+            alt="18+ only logo"
+          />
+          <img
+            src="./images/icons/unoaffiliates.svg"
+            height="40"
+            width="70"
+            loading="lazy"
+            alt="unoaffiliates logo"
+          />
+        </div>
+
+        <div class="footer__copywrite">
+          <p class="footer__copywrite-text1">
+            Gambling can be addictive. Play responsibly. FatPirate.com only
+            accepts customers over 18 years of age.
+          </p>
+          <div class="footer__copywrite-text2">
+            2025 © FatPirate.com All rights reserved.
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <button aria-label="scroll" id="scrollToTopBtn" class="scrollToTopBtn">
+      <img
+        loading="lazy"
+        width="24"
+        height="24"
+        src="./images/icons/buttons/up-arrow.png"
+        alt="arrow-up"
+      />
+    </button>
+    <script type="module" src="./scripts/main.js"></script>
+  </body>
+</html>

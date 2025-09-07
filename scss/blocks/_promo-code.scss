@@ -1,0 +1,38 @@
+.promo-code__wrapper {
+  position: relative;
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+  width: 100%;
+}
+
+.promo-code__copy-notification {
+  position: absolute;
+  top: -20px;
+  left: 50%;
+  transform: translateX(-50%);
+  opacity: 0;
+  visibility: hidden;
+  color: rgb(255, 255, 255);
+  font-size: 14px;
+  transition: opacity 0.3s ease, visibility 0.3s ease, top 0.3s ease;
+  background: var(--main-color-background);
+  border : 2px solid var(--aside-border-color);
+  padding: 16px 70px;
+  font-size: 16px;
+  font-weight: 700;
+
+  @media (max-width:479px){
+    font-size: 14px;
+    padding: 12px 40px;
+  }
+
+
+}
+
+.promo-code__copy-notification.active {
+  opacity: 1;
+  visibility: visible;
+  top: -30px;
+
+}

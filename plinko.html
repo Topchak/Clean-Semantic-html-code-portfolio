@@ -1,0 +1,949 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" type="image/x-icon" href="./images/favicon/favicon.ico" />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon/favicon-32x32.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="16x16"
+      href="./images/favicon/favicon-16x16.png"
+    />
+
+    <title>Fat Pirate Casino - plinko</title>
+
+    <meta property="og:title" content="Fat Pirate" />
+    <meta property="og:description" content="Fat Pirate Casino" />
+    <meta property="og:type" content="website" />
+    <meta property="og:image" content="./images/icons/fatpirate400x400.webp" />
+
+    <link rel="stylesheet" href="./css/main.min.css" />
+  </head>
+
+  <body class="body">
+    <div class="wrapper">
+      <header class="header">
+        <div class="container container--header">
+          <div class="header__wrapper">
+            <button class="header__burger" aria-label="burger">
+              <img
+                src="./images/icons/burger/burger.svg"
+                loading="lazy"
+                height="30"
+                width="30"
+                alt="open menu"
+                class="header__burger-icon"
+              />
+              <img
+                src="./images/icons/burger/windowclose.svg"
+                loading="lazy"
+                height="30"
+                width="30"
+                alt="close menu"
+                class="header__burger-icon header__burger-icon--active"
+              />
+            </button>
+            <div class="header__logo-wrapper">
+              <a href="./index.html" class="header__logo-link">
+                <img
+                  class="header__logo"
+                  width="68"
+                  height="42"
+                  src="./images/icons/logo-main.webp"
+                  alt="Fat Pirate logo"
+                />
+              </a>
+            </div>
+
+            <nav class="header__nav">
+              <div class="header__buttons-wrapper">
+                <div class="header__button">
+                  <a
+                    href="./login.html"
+                    aria-label="log-in"
+                    class="header__button-link link--login"
+                    >LOG IN</a
+                  >
+                </div>
+                <div class="header__button">
+                  <button
+                    aria-label="registration"
+                    class="header__button-link registration__button tike"
+                  >REGISTER</button>
+                </div>
+              </div>
+            </nav>
+
+            <!-- Мобильное меню -->
+
+            <div class="header__mobile-menu">
+              <div class="header__mobile-menu-header">
+                <img
+                  src="./images/icons/logo-main.webp"
+                  width="80"
+                  height="55"
+                  loading="lazy"
+                  alt="logo - Fat Pirate Casino"
+                />
+              </div>
+              <div class="header__mobile-nav-items">
+                <div class="header__mobile-nav-links-wrapper">
+                  <div>
+                    <a
+                      href="./login.html"
+                      aria-label="log-in"
+                      class="link--login header__button-link--login-mobile"
+                      >Log in</a
+                    >
+                  </div>
+                  <div>
+                    <button
+                      aria-label="registration"
+                      class="registration__button header__button-link--registration-mobile tike"
+                    >REGISTER</button>
+                  </div>
+                </div>
+
+                <div class="header__mobile-nav-item">
+                  <a
+                    href="./app.html"
+                    rel="nofollow"
+                    class="header__mobile-nav-link"
+                    ><img
+                      loading="lazy"
+                      width="30"
+                      height="28"
+                      src="./images/icons/menu-icons/app.png"
+                      loading="lazy"
+                      width="30"
+                      height="30"
+                      alt="app"
+                    />App</a
+                  >
+                </div>
+                <div class="header__mobile-nav-item">
+                  <a
+                    href="./betting.html"
+                    rel="nofollow"
+                    class="header__mobile-nav-link"
+                    ><img
+                      loading="lazy"
+                      width="30"
+                      height="28"
+                      src="./images/icons/menu-icons/betting.png"
+                      alt="betting"
+                    />Betting</a
+                  >
+                </div>
+
+                <div class="header__mobile-nav-item">
+                  <a
+                    href="./bonus.html"
+                    rel="nofollow"
+                    class="header__mobile-nav-link"
+                    ><img
+                      loading="lazy"
+                      width="30"
+                      height="28"
+                      src="./images/icons/menu-icons/bonus.png"
+                      alt="bonus"
+                    />Bonus</a
+                  >
+                </div>
+
+                <div class="header__mobile-nav-item">
+                  <a
+                    href="./no-deposit-bonus.html"
+                    rel="nofollow"
+                    class="header__mobile-nav-link"
+                    ><img
+                      loading="lazy"
+                      width="30"
+                      height="28"
+                      src="./images/icons/menu-icons/no-dep.png"
+                      alt="no-dep"
+                    />No Deposit Bonus</a
+                  >
+                </div>
+                <div class="header__mobile-nav-item">
+                  <a
+                    href="./review-trustpilot.html"
+                    rel="nofollow"
+                    class="header__mobile-nav-link"
+                    ><img
+                      loading="lazy"
+                      width="30"
+                      height="28"
+                      src="./images/icons/menu-icons/Review.png"
+                      alt="Review"
+                    />Review</a
+                  >
+                </div>
+                <div class="header__mobile-nav-item">
+                  <a
+                    href="./free-spins.html"
+                    rel="nofollow"
+                    class="header__mobile-nav-link"
+                    ><img
+                      loading="lazy"
+                      width="30"
+                      height="28"
+                      src="./images/icons/menu-icons/fs.png"
+                      alt="Free Spins"
+                    />Free Spins</a
+                  >
+                </div>
+                <div class="header__mobile-nav-item">
+                  <a
+                    href="./promo-code.html"
+                    rel="nofollow"
+                    class="header__mobile-nav-link"
+                    ><img
+                      loading="lazy"
+                      width="30"
+                      height="28"
+                      src="./images/icons/menu-icons/promo.png"
+                      alt="Promo Code"
+                    />Promo Code</a
+                  >
+                </div>
+                <div class="header__mobile-nav-item has-submenu">
+                  <div class="header__mobile-nav-link-wrapper">
+                    <a
+                      href="./slots.html"
+                      class="header__mobile-nav-link header__mobile-nav-link--slots"
+                      ><img
+                        src="./images/icons/menu-icons/Slots.png"
+                        loading="lazy"
+                        width="30"
+                        height="28"
+                        alt="Slots"
+                      />Slots</a
+                    >
+                    <button class="submenu-toggle">
+                      <img
+                        src="./images/icons/arrow-accordion.svg"
+                        loading="lazy"
+                        width="20"
+                        height="20"
+                        alt="toggle"
+                      />
+                    </button>
+                  </div>
+                  <div class="header__submenu">
+                    <a href="./plinko.html" class="header__submenu-link"
+                      >Plinko</a
+                    >
+                    <a href="./bingo.html" class="header__submenu-link"
+                      >Bingo</a
+                    >
+                  </div>
+                </div>
+                <div class="header__mobile-nav-item">
+                  <a
+                    href="./withdrawal-times.html"
+                    rel="nofollow"
+                    class="header__mobile-nav-link"
+                    ><img
+                      loading="lazy"
+                      width="30"
+                      height="28"
+                      src="./images/icons/menu-icons/wt.png"
+                      alt="Withdrawal Times"
+                    />Withdrawal Times</a
+                  >
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </header>
+
+      <main class="main">
+        <div class="body-wrapper">
+          <div class="header__overlay"></div>
+          <div class="menu-wrapper">
+            <nav class="menu">
+              <div class="menu__decor"></div>
+
+              <ul class="menu__list">
+                <li class="menu__item">
+                  <a href="./app.html" rel="nofollow" class="menu__link"
+                    ><img
+                      loading="lazy"
+                      width="30"
+                      height="28"
+                      src="./images/icons/menu-icons/app.png"
+                      loading="lazy"
+                      width="30"
+                      height="30"
+                      alt="app"
+                    />App</a
+                  >
+                </li>
+                <li class="menu__item">
+                  <a href="./betting.html" rel="nofollow" class="menu__link"
+                    ><img
+                      loading="lazy"
+                      width="30"
+                      height="28"
+                      src="./images/icons/menu-icons/betting.png"
+                      alt="betting"
+                    />Betting</a
+                  >
+                </li>
+
+                <li class="menu__item">
+                  <a href="./bonus.html" rel="nofollow" class="menu__link"
+                    ><img
+                      loading="lazy"
+                      width="30"
+                      height="28"
+                      src="./images/icons/menu-icons/bonus.png"
+                      alt="bonus"
+                    />Bonus</a
+                  >
+                </li>
+
+                <li class="menu__item">
+                  <a
+                    href="./no-deposit-bonus.html"
+                    rel="nofollow"
+                    class="menu__link"
+                    ><img
+                      loading="lazy"
+                      width="30"
+                      height="28"
+                      src="./images/icons/menu-icons/no-dep.png"
+                      alt="no-dep"
+                    />No Deposit Bonus</a
+                  >
+                </li>
+
+                <li class="menu__item">
+                  <a
+                    href="./review-trustpilot.html"
+                    rel="nofollow"
+                    class="menu__link"
+                    ><img
+                      loading="lazy"
+                      width="30"
+                      height="28"
+                      src="./images/icons/menu-icons/Review.png"
+                      alt="Review"
+                    />Review</a
+                  >
+                </li>
+
+                <li class="menu__item">
+                  <a href="./free-spins.html" rel="nofollow" class="menu__link"
+                    ><img
+                      loading="lazy"
+                      width="30"
+                      height="28"
+                      src="./images/icons/menu-icons/fs.png"
+                      alt="Free Spins"
+                    />Free Spins</a
+                  >
+                </li>
+                <li class="menu__item">
+                  <a href="./promo-code.html" rel="nofollow" class="menu__link"
+                    ><img
+                      loading="lazy"
+                      width="30"
+                      height="28"
+                      src="./images/icons/menu-icons/promo.png"
+                      alt="Promo Code"
+                    />Promo Code</a
+                  >
+                </li>
+                <li class="menu__item">
+                  <a
+                    href="./slots.html"
+                    rel="nofollow"
+                    class="menu__link menu__link-with-submenu"
+                  >
+                    <span class="menu__text"
+                      ><img
+                        src="./images/icons/menu-icons/Slots.png"
+                        alt="Slots"
+                      />Slots</span
+                    >
+                    <button class="menu__submenu-toggle" data-submenu-toggle>
+                      <img
+                        src="./images/icons/arrow-accordion.svg"
+                        loading="lazy"
+                        width="20"
+                        height="20"
+                        alt="Arrow"
+                        class="menu__arrow"
+                      />
+                    </button>
+                  </a>
+                  <ul class="menu__dropdown">
+                    <li class="menu__item">
+                      <a href="./plinko.html" rel="nofollow" class="menu__link"
+                        >Plinko</a
+                      >
+                    </li>
+                    <li class="menu__item">
+                      <a href="./bingo.html" rel="nofollow" class="menu__link"
+                        >Bingo</a
+                      >
+                    </li>
+                  </ul>
+                </li>
+                <li class="menu__item">
+                  <a
+                    href="./withdrawal-times.html"
+                    rel="nofollow"
+                    class="menu__link"
+                    ><img
+                      loading="lazy"
+                      width="30"
+                      height="28"
+                      src="./images/icons/menu-icons/wt.png"
+                      alt="Withdrawal Times"
+                    />Withdrawal Times</a
+                  >
+                </li>
+              </ul>
+            </nav>
+          </div>
+          <div class="main-content__wrapper">
+            <section class="promo" id="promo">
+              <h1>Plinko Fat Pirate</h1>
+              <p>
+                Plinko Fat Pirate is a fresh take on a classic-style arcade game
+                that blends simplicity with the chance to win big. Inspired by
+                the iconic TV game show, the Fat Pirate Plinko experience brings
+                that same suspense to the online casino world — now with real
+                money rewards. The premise is easy to grasp: drop a ball into a
+                peg-filled board and watch as it bounces unpredictably towards
+                one of many prize slots at the bottom. Each slot has a
+                multiplier attached, meaning every drop holds the potential for
+                instant wins.
+              </p>
+                              <div class="banner banner--bot tike">
+                  <picture>
+                    <source media="(min-width: 1200px)" srcset="./images/banners/banner7-1600.webp" width="1600"
+                      height="400" />
+                    <source media="(min-width: 769px)" srcset="./images/banners/banner7-1200.webp" width="1200"
+                      height="300" />
+                    <source media="(min-width: 451px)" srcset="./images/banners/banner7-768.webp" width="768"
+                      height="200" />
+                    <source media="(max-width: 450px)" srcset="./images/banners/banner7-400.webp" width="450"
+                      height="150" />
+                    <img src="./images/banners/banner7-1600.webp" loading="lazy" alt="Fat Pirate Casino No Deposit Bonus"
+                      width="1600" height="400" />
+                  </picture>
+                  <div class="banner__content">
+                    <div class="banner__title">100% UP TO $300</div>
+                    <button aria-label="Registration" class="registration__button-banner tike">
+                      <span>PLAY NOW</span>
+                    </button>
+                  </div>
+                </div>
+              <p>
+                At Fat Pirate Casino, Plinko has been adapted with modern
+                graphics and flexible betting options, making it suitable for
+                all types of players. Whether you’re a casual spinner or a high
+                roller, you can customise the risk level, adjust bet sizes, and
+                enjoy a fair, provably random outcome every time. It’s a perfect
+                blend of simplicity, chance, and excitement — ideal for those
+                looking for a fast-paced game with transparent mechanics and
+                rewarding results.
+              </p>
+            </section>
+            <section>
+              <h2>How to Play Plinko at Fat Pirate Casino</h2>
+              <p>
+                Playing Plinko at Fat Pirate Casino is refreshingly simple yet
+                surprisingly engaging. The game begins with a triangular grid
+                filled with pegs, and your goal is to drop the ball from the top
+                and watch it bounce its way down toward a prize-filled bottom
+                row. Each final landing spot carries a different multiplier —
+                some modest, others massive.
+              </p>
+              <p>
+                To get started, players first select their bet size. Fat Pirate
+                Plinko allows for flexible staking, so whether you're playing
+                low-risk for fun or aiming for high-stakes action, you're in
+                control. You'll also choose your risk level — typically low,
+                medium, or high. The higher the risk, the bigger the potential
+                multipliers, but also the greater the variance.
+              </p>
+              <p>
+                Once your preferences are set, simply click to drop the ball and
+                let gravity and luck do the rest. The result is instant, and
+                your winnings are calculated and credited automatically if the
+                ball lands in a multiplier zone.
+              </p>
+              <p>
+                Fat Pirate Casino also offers smooth mobile compatibility for
+                Plinko, allowing you to enjoy quick drops and instant rewards
+                wherever you are. Нow to play Plinko at Fat Pirate casino –
+                step-by-step:
+              </p>
+              <ol>
+                <li>
+                  <strong>Choose Your Bet Size: </strong>Begin by setting your
+                  stake. Whether you're looking to play casually or chase high
+                  returns, Plinko Fat Pirate accommodates all budgets.
+                </li>
+                <li>
+                  <strong>Select Your Risk Level: </strong>Plinko at Fat Pirate
+                  offers three risk modes — low, medium, and high. The higher
+                  the risk, the bigger the potential multipliers and the wilder
+                  the ride.
+                </li>
+                <li>
+                  <strong>Pick the Number of Rows (Peg Depth): </strong>Adjust
+                  the number of rows the ball will fall through — more rows mean
+                  more bouncing, higher volatility, and bigger potential wins.
+                </li>
+                <li>
+                  <strong>Click to Drop the Ball: </strong>Simply tap the screen
+                  or click your mouse to release the ball. It will bounce off
+                  the pegs in unpredictable directions, making Plinko Fat Pirate
+                  as exciting as it is rewarding.
+                </li>
+                <li>
+                  <strong>Watch the Ball Land in a Multiplier Zone: </strong>The
+                  ball lands in one of many prize zones at the bottom. Each slot
+                  has a different multiplier, ranging from small wins to massive
+                  payouts.
+                </li>
+                <li>
+                  <strong>Get Instant Payouts: </strong>If the ball lands in a
+                  winning slot, your prize is automatically credited. There's no
+                  waiting — just fast, transparent outcomes.
+                </li>
+                <li>
+                  <strong>Play On Mobile or Desktop: </strong>The Fat Pirate
+                  Plinko game is fully optimised for mobile devices, so you can
+                  enjoy seamless gameplay on the go without downloading an app.
+                </li>
+                <li>
+                  <strong>No Strategy Required – Just Pure Fun: </strong>With
+                  Plinko Fat Pirate, the outcome is entirely luck-based, making
+                  it perfect for relaxed, spontaneous play.
+                </li>
+                <li>
+                  <strong>Customise Your Session: </strong>Change your stake,
+                  risk, or number of rows at any time for a fresh approach —
+                  every drop can bring a new surprise.
+                </li>
+                <li>
+                  <strong>Enjoy a Visually Rich Experience: </strong>The game
+                  features vibrant graphics, smooth animations, and an intuitive
+                  layout, capturing the arcade-style charm of traditional Plinko
+                  with a modern twist.
+                </li>
+              </ol>
+            </section>
+            <section>
+              <h2>Why Plinko Is So Popular at Fat Pirate Casino</h2>
+              <p>
+                Plinko Fat Pirate isn’t just a nostalgic arcade-style game — at
+                Fat Pirate Casino, it’s become a fan-favourite for its
+                simplicity, excitement, and the thrill of unpredictability.
+                Whether you’re a seasoned bettor or new to the platform, Plinko
+                Fat Pirate offers a refreshing break from traditional slots or
+                card games while still delivering big win potential.
+              </p>
+              <p>
+                The appeal of pirate Plinko lies in its transparent mechanics
+                and high entertainment value. Players don’t need complex
+                strategies or experience — it’s as easy as dropping a ball and
+                watching where it lands. With a wide range of bet sizes, risk
+                levels, and adjustable gameplay settings, everyone can tailor
+                their session to match their mood and bankroll.
+              </p>
+              <p>
+                Plus, the game fits perfectly within Fat Pirate’s bold,
+                fast-paced atmosphere. It’s ideal for quick-fire sessions,
+                casual wagering, or chasing big multipliers without the pressure
+                of traditional casino formats. The instant results and immersive
+                design keep players coming back, not to mention the fact that it
+                looks and plays just as well on mobile as it does on desktop.
+              </p>
+            </section>
+            <section>
+              <h2>
+                Bonuses and Promotions for Plinko Fans at Fat Pirate Casino
+              </h2>
+              <p>
+                Although Plinko is a simple and fun game, Fat Pirate Casino
+                supports the experience with a range of generous promotions and
+                bonuses. While not all promotions list eligible games in detail,
+                here’s how bonus players can potentially benefit while enjoying
+                Plinko, subject to bonus terms and conditions:
+              </p>
+              <ul>
+                <li>
+                  <strong>Welcome Bonus</strong>: Get 100% up to £425 + 200 Free
+                  Spins on your first deposit. While free spins are
+                  slot-specific, bonus funds may be available for Plinko
+                  depending on current wagering restrictions.
+                </li>
+                <li>
+                  <strong>Weekend Reload Bonus</strong>: A 50% bonus up to £595
+                  plus 50 Free Spins is available every weekend. Bonus cash
+                  might be usable on Plinko, based on the promotional T&amp;CS.
+                </li>
+                <li>
+                  <strong>Weekly Cashback</strong>: With cashback offers up to
+                  15%, losses from a variety of casino games, including possibly
+                  Plinko Fat Pirate, could be partially returned.
+                </li>
+                <li>
+                  <strong>VIP Programme</strong>: High-tier members get
+                  personalised offers, which may include bonus drops or rewards
+                  usable on games like Plinko.
+                </li>
+                <li>
+                  <strong>Seasonal Events</strong>: Special events such as the
+                  Easter Hunt may feature game challenges or leaderboard races.
+                  While slots are typically the focus, Plinko might be included
+                  during relevant campaigns.
+                </li>
+              </ul>
+            </section>
+            <section>
+              <h2>Plinko Features at Fat Pirate Casino</h2>
+              <p>
+                One of the standout aspects of playing Plinko at Fat Pirate
+                Casino is the collection of dynamic and visually engaging
+                features that elevate this classic concept into a top-tier
+                online game. Whether you're chasing quick wins or experimenting
+                with different risk levels, the game remains exciting and easy
+                to personalise. Here are some of the most appealing features
+                you’ll enjoy in Fat Pirate Plinko:
+              </p>
+              <ul>
+                <li>
+                  <strong>Customisable Risk Levels:</strong> Choose between low,
+                  medium, and high risk to balance safety and thrill. Higher
+                  risk means higher multipliers — but fewer winning slots.
+                </li>
+                <li>
+                  <strong>Adjustable Rows:</strong> Pick how many rows you want,
+                  usually ranging from 8 to 16. More rows = more randomness and
+                  more chances for big multipliers.
+                </li>
+                <li>
+                  <strong>High Maximum Multiplier:</strong> Depending on the
+                  configuration, you can win up to x1000 your bet, making this
+                  one of the most potentially profitable mini-games on the
+                  platform.
+                </li>
+                <li>
+                  <strong>Clean Mobile Interface:</strong> The mobile-optimised
+                  design ensures seamless performance across all devices, making
+                  it perfect for quick on-the-go sessions.
+                </li>
+                <li>
+                  <strong>Fair RNG Mechanics:</strong> Like all games at Fat
+                  Pirate Casino, Plinko is backed by certified Random Number
+                  Generator technology, ensuring complete fairness with each
+                  ball drop.
+                </li>
+                <li>
+                  <strong>Quick Rounds:</strong> Each round takes just a few
+                  seconds — ideal for players who love fast-paced action without
+                  overthinking.
+                </li>
+                <li>
+                  <strong>Auto Mode Available:</strong> You can automate the
+                  gameplay for multiple rounds with preset risk and bet
+                  settings, which are great for testing strategies or casual
+                  play.
+                </li>
+              </ul>
+            </section>
+            <section>
+              <h2>Tips for Winning at Plinko</h2>
+              <p>
+                While Plinko is largely a game of chance, there are a few smart
+                strategies you can apply to make the most of your experience at
+                Fat Pirate Casino. Below are some practical tips to help you
+                enjoy longer gameplay, manage your balance, and increase your
+                chances of hitting those multipliers.
+              </p>
+              <ul>
+                <li>
+                  <strong>Test Different Risk Levels:</strong> Plinko at Fat
+                  Pirate offers adjustable risk settings – low, medium, and
+                  high. If you’re new or playing with a smaller bankroll, start
+                  with the low-risk option to familiarise yourself with the
+                  game’s flow. Higher risk levels offer bigger multipliers but
+                  come with more volatility.
+                </li>
+                <li>
+                  <strong>Play with Small Stakes First:</strong> Begin with
+                  smaller bets to stretch your balance and understand how the
+                  ball drops behave across the board. Once you're confident, you
+                  can scale up your wager for bigger potential payouts.
+                </li>
+                <li>
+                  <strong>Use the Auto Mode for Bulk Bets:</strong> Fat Pirate’s
+                  Plinko game supports autoplay, allowing you to place hundreds
+                  of bets in a row. This is ideal for testing strategies or
+                  spotting patterns over a large number of rounds.
+                </li>
+                <li>
+                  <strong>Adjust the Number of Rows:</strong> The number of rows
+                  in Plinko affects the potential multipliers. Fewer rows mean
+                  smaller wins but less variance, while more rows increase the
+                  possible payout at the cost of more risk. Find the sweet spot
+                  that suits your style and budget.
+                </li>
+                <li>
+                  <strong>Watch the Multiplier Spread:</strong> Before placing a
+                  bet, take a look at the board’s multiplier distribution. Some
+                  settings might shift high payouts further to the sides, giving
+                  you insight into how risky your bet really is.
+                </li>
+                <li>
+                  <strong>Set Win and Loss Limits:</strong> As with all
+                  gambling, it’s smart to establish a stop-loss and a profit
+                  goal. This helps you keep your session in control and walk
+                  away when it’s most favourable.
+                </li>
+              </ul>
+            </section>
+            <section>
+              <h2>Can You Win Real Money With Plinko at Fat Pirate?</h2>
+              <p>
+                Absolutely. Plinko at Fat Pirate Casino is a real-money game,
+                offering players the chance to score genuine cash payouts with
+                every drop of the ball. Unlike demo versions you might find
+                elsewhere, this version is tied directly to your account
+                balance, meaning your wins — and potential losses — are the real
+                deal.
+              </p>
+              <p>
+                Each chip you drop comes with the possibility of hitting a
+                multiplier, with values that can significantly boost your stake
+                depending on your chosen risk level and board settings. Whether
+                you're betting conservatively or going all in with high-risk,
+                high-reward plays, every move has the potential to result in an
+                instant payout.
+              </p>
+              <p>
+                Many players are drawn to Plinko Fat Pirate not only for its
+                simplicity but also for the speed at which rounds are played.
+                It's a fast-paced game that doesn’t require complex rules or
+                deep strategy — just select your risk level, stake, and drop the
+                ball. The outcome is immediate, making it one of the most
+                efficient ways to chase multipliers at Fat Pirate Casino.
+              </p>
+            </section>
+            <section>
+              <h2>Plinko: Fast-Paced Fun for Every Player</h2>
+              <p>
+                Plinko at Fat Pirate Casino stands out as a fast, fun, and
+                rewarding game for players of all levels. With its simple
+                mechanics, real-money stakes, and a wide range of multipliers,
+                it's perfect for those who want instant excitement without
+                over-complicated rules. Whether you're looking to play it safe
+                with low-risk settings or go bold for bigger rewards, Plinko
+                offers flexible gameplay that suits your style.
+              </p>
+              <p>
+                Accessible on both desktop and mobile without the need to
+                download any apps, it's easy to jump into the action wherever
+                you are. Add in Fat Pirate Casino's smooth interface, reliable
+                payments, and secure environment, and you've got one of the best
+                ways to enjoy quick wins and engaging gameplay. If you're ready
+                for something fast, fair, and full of pirate-style thrills,
+                Plinko at Fat Pirate is well worth a spin.
+              </p>
+            </section>
+            <section class="accordion">
+              <h2>FAQ</h2>
+
+              <div class="accordion-item">
+                <h3 class="accordion-title">
+                  What is Plinko's RTP at Fat Pirate Casino?
+                </h3>
+                <p class="accordion-content">
+                  The RTP (Return to Player) of Plinko at Fat Pirate Casino
+                  typically ranges between 97% and 99%, depending on your chosen
+                  risk level and settings. Lower-risk modes tend to offer a more
+                  stable RTP, while high-risk configurations come with more
+                  volatility and potentially higher multipliers.
+                </p>
+              </div>
+
+              <div class="accordion-item">
+                <h3 class="accordion-title">
+                  Is Plinko a game of skill or luck?
+                </h3>
+                <p class="accordion-content">
+                  Plinko is primarily a game of chance. While you can control
+                  certain settings, such as risk level and number of rows, the
+                  outcome is determined by randomised physics as the ball drops
+                  through the pins. There's no guaranteed strategy for winning,
+                  which makes it a game of luck at heart.
+                </p>
+              </div>
+
+              <div class="accordion-item">
+                <h3 class="accordion-title">
+                  Can I play Plinko with bonus funds?
+                </h3>
+                <p class="accordion-content">
+                  Yes, in most cases, Plinko is eligible to play with bonus
+                  funds at Fat Pirate Casino. However, it's important to check
+                  the bonus terms and conditions, as some promotions may
+                  restrict which games contribute to wagering requirements.
+                  Always review the bonus policy before using bonus money on
+                  Plinko.
+                </p>
+              </div>
+
+              <div class="accordion-item">
+                <h3 class="accordion-title">
+                  Are there limits on how much I can win in Plinko?
+                </h3>
+                <p class="accordion-content">
+                  Yes, your winnings in Plinko depend on your bet size, risk
+                  level, and the multiplier you land. The highest multipliers
+                  are available in high-risk settings and can result in
+                  substantial payouts. That said, Fat Pirate Casino may also
+                  have maximum win caps outlined in the bonus or general terms,
+                  so be sure to check those for specific limits.
+                </p>
+              </div>
+
+              <div class="accordion-item">
+                <h3 class="accordion-title">
+                  Is Plinko available on mobile at Fat Pirate Casino?
+                </h3>
+                <p class="accordion-content">
+                  Absolutely. Plinko Fat Pirate is fully available on mobile
+                  through the Fat Pirate mobile-optimised website. You don't
+                  need to download any apps—just log in via your smartphone
+                  browser, and the game will run smoothly and have full
+                  functionality across iOS and Android devices.
+                </p>
+              </div>
+            </section>
+          </div>
+        </div>
+      </main>
+    </div>
+
+    <footer class="footer">
+      <div class="footer__wrapper">
+        <div class="providers">
+          <div class="paySystems__wrapper">
+            <div class="paySystems__item">
+              <img
+                src="./images/icons/paySystems/visalarge.svg"
+                width="130"
+                height="76"
+                alt="Visa"
+                loading="lazy"
+              />
+            </div>
+            <div class="paySystems__item">
+              <img
+                src="./images/icons/paySystems/mastercardlarge.svg"
+                width="130"
+                height="76"
+                alt="MasterCard"
+                loading="lazy"
+              />
+            </div>
+            <div class="paySystems__item">
+              <img
+                src="./images/icons/paySystems/interac-2.svg"
+                width="130"
+                height="76"
+                alt="Interac"
+                loading="lazy"
+              />
+            </div>
+          </div>
+        </div>
+
+        <div class="footer__main">
+          <nav class="footer__nav">
+            <ul class="footer__nav-list">
+              <li class="footer__nav-item">
+                <a href="./contacts.html" class="footer__nav-link">Contacts</a>
+              </li>
+              <li class="footer__nav-item">
+                <a href="./policy.html" class="footer__nav-link"
+                  >Privacy Notice</a
+                >
+              </li>
+              <li class="footer__nav-item">
+                <a href="./terms.html" class="footer__nav-link"
+                  >Terms & Conditions</a
+                >
+              </li>
+              <li class="footer__nav-item">
+                <a href="./responsible-gaming.html" class="footer__nav-link"
+                  >Responsible Gambling</a
+                >
+              </li>
+              <li class="footer__nav-item">
+                <a href="./help-centre.html" class="footer__nav-link"
+                  >Help Centre</a
+                >
+              </li>
+            </ul>
+          </nav>
+        </div>
+        <div class="footer__images-info">
+          <img
+            src="./images/icons/18+.svg"
+            height="40"
+            width="40"
+            loading="lazy"
+            alt="18+ only logo"
+          />
+          <img
+            src="./images/icons/unoaffiliates.svg"
+            height="40"
+            width="70"
+            loading="lazy"
+            alt="unoaffiliates logo"
+          />
+        </div>
+
+        <div class="footer__copywrite">
+          <p class="footer__copywrite-text1">
+            Gambling can be addictive. Play responsibly. FatPirate.com only
+            accepts customers over 18 years of age.
+          </p>
+          <div class="footer__copywrite-text2">
+            2025 © FatPirate.com All rights reserved.
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <button aria-label="scroll" id="scrollToTopBtn" class="scrollToTopBtn">
+      <img
+        loading="lazy"
+        width="24"
+        height="24"
+        src="./images/icons/buttons/up-arrow.png"
+        alt="arrow-up"
+      />
+    </button>
+    <script type="module" src="./scripts/main.js"></script>
+  </body>
+</html>

@@ -1,0 +1,157 @@
+.table__wrapper {
+  overflow-x: auto;
+  width: 100%;
+  margin: 30px auto;
+  scroll-behavior: auto;
+  text-align: center;
+
+  @media (max-width:1200px) {
+    width: 600px;
+  }
+
+  @media (max-width:980px) {
+    width: 450px;
+  }
+
+  @media (max-width:500px) {
+    width: 380px;
+  }
+
+  @media (max-width:420px) {
+    width: 350px;
+  }
+
+  @media (max-width:400px) {
+    width: 300px;
+  }
+
+  @media (max-width:370px){
+    width: 250px;
+  }
+}
+
+.table__wrapper table {
+  border-collapse: collapse;
+  width: max-content;
+}
+
+
+
+.table__wrapper--first {
+  margin-top: 0;
+}
+
+
+
+table {
+  width: max-content;
+  border-collapse: collapse;
+  margin-top: 10px;
+  border: 1px solid var(--banner-border);
+  text-align: center;
+  scrollbar-color: rgb(58 41 31) rgb(255 255 255 / 0%);
+  scrollbar-width: thin;
+  p {
+    font-weight: 400;
+
+    @media (max-width:1200px) {
+      text-align: center;
+
+    }
+
+  }
+}
+
+thead {
+  border: 1px solid #3a291f;
+}
+
+
+
+th,
+td {
+  padding: 10px;
+  text-align: left;
+  position: relative;
+  padding-block-start: 8px;
+  vertical-align: middle;
+  border-right: 1px solid #3a291f;
+
+  @media (max-width:600px) {
+    padding: 6px;
+  }
+
+  @media (max-width:479px) {
+    font-size: 13px;
+    text-align: center;
+  }
+}
+
+td:nth-child(2)::before {
+  content: "";
+  position: absolute;
+  left: 0px;
+  top: 0;
+  bottom: 0;
+  width: 1px;
+  background-color: rgba(0, 0, 0, 0.3);
+}
+
+th {
+  background-color: var(--table-background);
+  color: white;
+  font-weight: bold;
+border: 1px solid #3a291f;
+
+  @media (max-width:600px) {
+    font-size: 14px;
+    font-weight: 400;
+  }
+}
+
+td {
+  color: white;
+  border: 1px solid #3a291f;
+
+  a {
+    color: var(--table-link-color);
+
+    &:hover {
+      text-decoration: underline;
+    }
+  }
+}
+
+tr:nth-child(even) td {}
+
+.icon {
+  margin-right: 10px;
+}
+
+ul {
+  list-style-type: none;
+  padding-left: 0px;
+  margin: 0;
+}
+
+li {
+  margin-bottom: 5px;
+}
+
+li:before {
+  content: "•";
+  margin-right: 10px;
+}
+
+
+.table__wrapper th,
+.table__wrapper td {
+  padding: 10px;
+  text-align: left;
+
+  @media (max-width:1200px) {
+    text-align: center;
+    width: min-content;
+  }
+
+}

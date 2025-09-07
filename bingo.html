@@ -1,0 +1,657 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="icon" type="image/x-icon" href="./images/favicon/favicon.ico" />
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon/favicon-32x32.png" />
+  <link rel="icon" type="image/png" sizes="16x16" href="./images/favicon/favicon-16x16.png" />
+
+  <title>Fat Pirate Casino - bingo</title>
+
+  <meta property="og:title" content="Fat Pirate" />
+  <meta property="og:description" content="Fat Pirate Casino" />
+  <meta property="og:type" content="website" />
+  <meta property="og:image" content="./images/icons/fatpirate400x400.webp" />
+
+  <link rel="stylesheet" href="./css/main.min.css" />
+</head>
+
+<body class="body">
+  <div class="wrapper">
+    <header class="header">
+      <div class="container container--header">
+        <div class="header__wrapper">
+          <button class="header__burger" aria-label="burger">
+            <img src="./images/icons/burger/burger.svg" loading="lazy" height="30" width="30" alt="open menu"
+              class="header__burger-icon" />
+            <img src="./images/icons/burger/windowclose.svg" loading="lazy" height="30" width="30" alt="close menu"
+              class="header__burger-icon header__burger-icon--active" />
+          </button>
+          <div class="header__logo-wrapper">
+            <a href="./index.html" class="header__logo-link">
+              <img class="header__logo" width="68" height="42" src="./images/icons/logo-main.webp"
+                alt="Fat Pirate logo" />
+            </a>
+          </div>
+
+          <nav class="header__nav">
+            <div class="header__buttons-wrapper">
+              <div class="header__button">
+                <a href="./login.html" aria-label="log-in" class="header__button-link link--login">LOG IN</a>
+              </div>
+              <div class="header__button">
+                <button aria-label="registration"
+                  class="header__button-link registration__button tike">REGISTER</button>
+              </div>
+            </div>
+          </nav>
+
+          <!-- Мобильное меню -->
+
+          <div class="header__mobile-menu">
+            <div class="header__mobile-menu-header">
+              <img src="./images/icons/logo-main.webp" width="80" height="55" loading="lazy"
+                alt="logo - Fat Pirate Casino" />
+            </div>
+            <div class="header__mobile-nav-items">
+              <div class="header__mobile-nav-links-wrapper">
+                <div>
+                  <a href="./login.html" aria-label="log-in" class="link--login header__button-link--login-mobile">Log
+                    in</a>
+                </div>
+                <div>
+                  <button aria-label="registration"
+                    class="registration__button header__button-link--registration-mobile tike">REGISTER</button>
+                </div>
+              </div>
+
+              <div class="header__mobile-nav-item">
+                <a href="./app.html" rel="nofollow" class="header__mobile-nav-link"><img loading="lazy" width="30"
+                    height="28" src="./images/icons/menu-icons/app.png" loading="lazy" width="30" height="30"
+                    alt="app" />App</a>
+              </div>
+              <div class="header__mobile-nav-item">
+                <a href="./betting.html" rel="nofollow" class="header__mobile-nav-link"><img loading="lazy" width="30"
+                    height="28" src="./images/icons/menu-icons/betting.png" alt="betting" />Betting</a>
+              </div>
+
+              <div class="header__mobile-nav-item">
+                <a href="./bonus.html" rel="nofollow" class="header__mobile-nav-link"><img loading="lazy" width="30"
+                    height="28" src="./images/icons/menu-icons/bonus.png" alt="bonus" />Bonus</a>
+              </div>
+
+              <div class="header__mobile-nav-item">
+                <a href="./no-deposit-bonus.html" rel="nofollow" class="header__mobile-nav-link"><img loading="lazy"
+                    width="30" height="28" src="./images/icons/menu-icons/no-dep.png" alt="no-dep" />No Deposit
+                  Bonus</a>
+              </div>
+              <div class="header__mobile-nav-item">
+                <a href="./review-trustpilot.html" rel="nofollow" class="header__mobile-nav-link"><img loading="lazy"
+                    width="30" height="28" src="./images/icons/menu-icons/Review.png" alt="Review" />Review</a>
+              </div>
+              <div class="header__mobile-nav-item">
+                <a href="./free-spins.html" rel="nofollow" class="header__mobile-nav-link"><img loading="lazy"
+                    width="30" height="28" src="./images/icons/menu-icons/fs.png" alt="Free Spins" />Free Spins</a>
+              </div>
+              <div class="header__mobile-nav-item">
+                <a href="./promo-code.html" rel="nofollow" class="header__mobile-nav-link"><img loading="lazy"
+                    width="30" height="28" src="./images/icons/menu-icons/promo.png" alt="Promo Code" />Promo Code</a>
+              </div>
+              <div class="header__mobile-nav-item has-submenu">
+                <div class="header__mobile-nav-link-wrapper">
+                  <a href="./slots.html" class="header__mobile-nav-link header__mobile-nav-link--slots"><img
+                      src="./images/icons/menu-icons/Slots.png" loading="lazy" width="30" height="28"
+                      alt="Slots" />Slots</a>
+                  <button class="submenu-toggle">
+                    <img src="./images/icons/arrow-accordion.svg" loading="lazy" width="20" height="20" alt="toggle" />
+                  </button>
+                </div>
+                <div class="header__submenu">
+                  <a href="./plinko.html" class="header__submenu-link">Plinko</a>
+                  <a href="./bingo.html" class="header__submenu-link">Bingo</a>
+                </div>
+              </div>
+              <div class="header__mobile-nav-item">
+                <a href="./withdrawal-times.html" rel="nofollow" class="header__mobile-nav-link"><img loading="lazy"
+                    width="30" height="28" src="./images/icons/menu-icons/wt.png" alt="Withdrawal Times" />Withdrawal
+                  Times</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <main class="main">
+      <div class="body-wrapper">
+        <div class="header__overlay"></div>
+        <div class="menu-wrapper">
+          <nav class="menu">
+            <div class="menu__decor"></div>
+
+            <ul class="menu__list">
+              <li class="menu__item">
+                <a href="./app.html" rel="nofollow" class="menu__link"><img loading="lazy" width="30" height="28"
+                    src="./images/icons/menu-icons/app.png" loading="lazy" width="30" height="30" alt="app" />App</a>
+              </li>
+              <li class="menu__item">
+                <a href="./betting.html" rel="nofollow" class="menu__link"><img loading="lazy" width="30" height="28"
+                    src="./images/icons/menu-icons/betting.png" alt="betting" />Betting</a>
+              </li>
+
+              <li class="menu__item">
+                <a href="./bonus.html" rel="nofollow" class="menu__link"><img loading="lazy" width="30" height="28"
+                    src="./images/icons/menu-icons/bonus.png" alt="bonus" />Bonus</a>
+              </li>
+
+              <li class="menu__item">
+                <a href="./no-deposit-bonus.html" rel="nofollow" class="menu__link"><img loading="lazy" width="30"
+                    height="28" src="./images/icons/menu-icons/no-dep.png" alt="no-dep" />No Deposit Bonus</a>
+              </li>
+
+              <li class="menu__item">
+                <a href="./review-trustpilot.html" rel="nofollow" class="menu__link"><img loading="lazy" width="30"
+                    height="28" src="./images/icons/menu-icons/Review.png" alt="Review" />Review</a>
+              </li>
+
+              <li class="menu__item">
+                <a href="./free-spins.html" rel="nofollow" class="menu__link"><img loading="lazy" width="30" height="28"
+                    src="./images/icons/menu-icons/fs.png" alt="Free Spins" />Free Spins</a>
+              </li>
+              <li class="menu__item">
+                <a href="./promo-code.html" rel="nofollow" class="menu__link"><img loading="lazy" width="30" height="28"
+                    src="./images/icons/menu-icons/promo.png" alt="Promo Code" />Promo Code</a>
+              </li>
+              <li class="menu__item">
+                <a href="./slots.html" rel="nofollow" class="menu__link menu__link-with-submenu">
+                  <span class="menu__text"><img src="./images/icons/menu-icons/Slots.png" alt="Slots" />Slots</span>
+                  <button class="menu__submenu-toggle" data-submenu-toggle>
+                    <img src="./images/icons/arrow-accordion.svg" loading="lazy" width="20" height="20" alt="Arrow"
+                      class="menu__arrow" />
+                  </button>
+                </a>
+                <ul class="menu__dropdown">
+                  <li class="menu__item">
+                    <a href="./plinko.html" rel="nofollow" class="menu__link">Plinko</a>
+                  </li>
+                  <li class="menu__item">
+                    <a href="./bingo.html" rel="nofollow" class="menu__link">Bingo</a>
+                  </li>
+                </ul>
+              </li>
+              <li class="menu__item">
+                <a href="./withdrawal-times.html" rel="nofollow" class="menu__link"><img loading="lazy" width="30"
+                    height="28" src="./images/icons/menu-icons/wt.png" alt="Withdrawal Times" />Withdrawal Times</a>
+              </li>
+            </ul>
+          </nav>
+        </div>
+        <div class="main-content__wrapper">
+          <section class="promo" id="promo">
+            <h1>Fat Pirate Bingo</h1>
+            <p>
+              Fat Pirate Bingo has long been a beloved game among players
+              seeking straightforward fun, fast-paced rounds, and a touch of
+              social flair. While traditionally played in buzzing Bingo halls,
+              the game has evolved beautifully in the online space, and Fat
+              Pirate Casino brings its own flair to the classic format.
+            </p>
+            <div class="banner banner--bot tike">
+              <picture>
+                <source media="(min-width: 1200px)" srcset="./images/banners/banner4-1600.webp" width="1600"
+                  height="400" />
+                <source media="(min-width: 769px)" srcset="./images/banners/banner4-1200.webp" width="1200"
+                  height="300" />
+                <source media="(min-width: 451px)" srcset="./images/banners/banner4-768.webp" width="768"
+                  height="200" />
+                <source media="(max-width: 450px)" srcset="./images/banners/banner4-400.webp" width="450"
+                  height="150" />
+                <img src="./images/banners/banner4-1600.webp" loading="lazy" alt="What Is Online Bingo All About?"
+                  width="1600" height="400" />
+              </picture>
+              <div class="banner__content">
+                <div class="banner__title">125% UP TO €250</div>
+                <button aria-label="Registration" class="registration__button-banner tike">
+                  <span>JOIN NOW</span>
+                </button>
+              </div>
+            </div>
+            <p>
+              In this guide, we explore everything you need to know about
+              Bingo at Fat Pirate Casino – from current availability and game
+              styles to top alternatives and player tips. Whether you’re a
+              loyal fan of number-based games or just fancy a quick round of
+              light-hearted action, Fat Pirate adds a modern, pirate-themed
+              twist to a time-tested favourite. Ready to see if your lucky
+              numbers hit the jackpot? Let’s dive in.
+            </p>
+          </section>
+          <section>
+            <h2>Fat Pirate Bingo: What’s on Offer?</h2>
+            <p>
+              Fans of traditional formats will be pleased to find options like
+              Bingo 90 and Bingo 75, which bring the familiar structure of
+              90-ball and 75-ball halls into the digital age with engaging
+              animations and pirate-themed flair.
+            </p>
+            <p>
+              Beyond these well-known versions, Fat Pirate also expands the
+              Bingo offering with a vibrant mix of themed titles that combine
+              number-drawing mechanics with slot-style visuals and bonus
+              elements. From Tomatina Bingo to Calavera Bingo and Bingo
+              Machine, these games put a fresh spin on the Bingo genre without
+              losing its core excitement.
+            </p>
+            <p>
+              Whether you prefer the structured pace of traditional Bingo or
+              the fast bursts of action from instant games, Fat Pirate Casino
+              provides something for every Bingo enthusiast. It’s a varied and
+              playful lineup designed to deliver both nostalgic gameplay and
+              innovative twists, all wrapped in the casino’s trademark
+              adventurous style.
+            </p>
+          </section>
+          <section>
+            <h2>What Is Online Bingo All About?</h2>
+            <p>
+              Online Bingo takes the beloved number-matching game and
+              transforms it into a faster, more immersive digital experience.
+              Gone are the paper cards and ink daubers — replaced instead by
+              sleek interfaces, automated draws, and interactive game elements
+              that bring a new level of energy to the classic formula. Whether
+              you’re playing on desktop or mobile, the rules remain familiar:
+              match the right numbers and aim for a winning pattern.
+            </p>
+
+            <p>
+              At Fat Pirate Casino, the spirit of Bingo lives on in a
+              collection of vibrant, number-based games that blend traditional
+              mechanics with modern visual flair. These titles often feature
+              pirate-themed graphics, real-time number draws, and bonus
+              features that keep players engaged throughout the session.
+              Alongside a selection of themed alternatives, Fat Pirate also
+              includes classic Bingo rooms like 75-ball and 90-ball formats,
+              offering an exciting twist on the original concept with added
+              visual flair and modern features, combining speed, simplicity,
+              and the chance to win real cash prizes.
+            </p>
+            <p>
+              Whether you’re in the mood for casual play or hoping to ride a
+              winning streak with bonus-backed rounds, Bingo-style gameplay at
+              Fat Pirate is all about fun, flexibility, and fast results.
+            </p>
+          </section>
+          <section>
+            <h2>Top Bingo-Style Games to Explore at Fat Pirate</h2>
+            <p>
+              The Fat Pirate Bingo experience includes both classic halls like
+              Bingo 90 and Bingo 75, as well as a wide variety of modern,
+              Bingo-inspired titles that bring something fresh to the genre.
+              The casino features a swashbuckling range of Bingo-inspired
+              games that combine the number-matching thrill of traditional
+              Bingo with bold visuals, adventurous themes, and rewarding bonus
+              mechanics.
+            </p>
+            <p>
+              Whether you’re spinning for fun or hoping to haul in a
+              bonus-laden treasure, these games serve up light-hearted action
+              that’s as satisfying as a full house. Here are some popular
+              Bingo-style games currently available at Fat Pirate Casino:
+            </p>
+            <ul>
+              <li>
+                <strong>Bingo 90</strong>: A true classic brought to digital
+                life, this version uses a 90-ball format for smooth, familiar
+                gameplay with dynamic animations.
+              </li>
+              <li>
+                <strong>Bingo 75</strong>: Perfect for UK-style Bingo lovers,
+                this version includes patterned card wins and offers a faster
+                pace.
+              </li>
+              <li>
+                <strong>Calavera Bingo</strong>: A colourful Day of the
+                Dead-themed Bingo adventure full of character, charm, and
+                festive visuals.
+              </li>
+              <li>
+                <strong>Tomatina Bingo</strong>: Inspired by the famous tomato
+                festival, this game delivers explosive Bingo action with
+                splashy bonuses.
+              </li>
+              <li>
+                <strong>Instant Bingo</strong>: No waiting, no fuss – enjoy
+                instant number draws and quick wins in this vibrant, fast-play
+                option.
+              </li>
+              <li>
+                <strong>Bingo Machine</strong>: A steampunk-themed twist on
+                classic Bingo, complete with mechanical reels and a nostalgic
+                atmosphere.
+              </li>
+              <li>
+                <strong>6 Bingo</strong>: A compact, fast-paced Bingo game
+                with just six balls – ideal for players who love quick rounds.
+              </li>
+              <li>
+                <strong>BingoLÉ</strong>: A quirky, one-eyed alien-themed game
+                that adds humour and animated flair to traditional Bingo
+                mechanics.
+              </li>
+              <li>
+                <strong>Bingo HD LÉ</strong>: A high-definition upgrade of
+                Bingo with cleaner visuals and sharper gameplay for a smooth
+                experience.
+              </li>
+              <li>
+                <strong>BingoL</strong>: Soccer meets Bingo in this sporty
+                variant, packed with football-style flair and winning
+                potential.
+              </li>
+              <li>
+                <strong>Olé Bingo</strong>: A cheerful, Spanish-themed game
+                that brings fiesta energy to the Bingo world with bright
+                colours and animations.
+              </li>
+              <li>
+                <strong>Beach Bingo</strong>: Perfect for summer vibes, this
+                game is set against a sunny beach backdrop and features joyful
+                visuals.
+              </li>
+              <li>
+                <strong>Night Bingo</strong>: With a mysterious, witchy
+                aesthetic, Night Bingo is great for evening play with
+                Halloween-style graphics.
+              </li>
+              <li>
+                <strong>Wild Bingo</strong>: A flashy and classic-style Bingo
+                game enhanced with wild features for bigger chances to win.
+              </li>
+            </ul>
+          </section>
+          <section>
+            <h2>Getting Started with Fat Pirate Bingo</h2>
+            <p>
+              Getting started with Bingo is quick and easy, even for
+              first-time players. Simply visit the official Fat Pirate Casino
+              website, create your account, and make your first deposit — the
+              entire process takes only a few minutes. Once registered, head
+              to the Bingo section from the main lobby to discover a lively
+              mix of themed, Bingo-inspired games filled with animations,
+              bonus rounds, and plenty of pirate charm.
+            </p>
+            <p>
+              Each game offers its own variation on classic Bingo mechanics,
+              with straightforward rules and user-friendly controls. Whether
+              you want to try them out in demo mode or aim for real cash
+              prizes, everything is designed for smooth, mobile-friendly play.
+              Fat Pirate’s Bingo experience is fun, fast-paced, and always
+              ready to deliver some treasure.
+            </p>
+            <h3>How to Start Playing Bingo – Step by Step</h3>
+            <p>
+              Fat Pirate Bingo delivers classic number-matching games' thrills
+              with a modern twist — easy to learn, fun to play, and packed
+              with colourful pirate-themed action. Whether you’re trying your
+              luck on a cheeky beach game or a quirky animated adventure, the
+              process is simple and smooth, making it ideal for beginners and
+              experienced players alike.
+            </p>
+            <p>
+              The Bingo interface is user-friendly, with automated features
+              like number daubing and fast-paced draws to keep the energy
+              high. If you’re new to it all, here’s a step-by-step breakdown
+              of how to get started:
+            </p>
+            <ol>
+              <li>
+                Log in to your Fat Pirate Casino account and head to the Bingo
+                section.
+              </li>
+              <li>
+                Browse the collection and choose a Bingo-style game that
+                catches your eye.
+              </li>
+              <li>
+                Buy one or more Bingo tickets — each ticket displays a grid
+                filled with random numbers.
+              </li>
+              <li>
+                Once the game starts, numbers will be drawn and displayed
+                automatically.
+              </li>
+              <li>
+                The System will auto-mark your numbers, or you can do it
+                manually if preferred.
+              </li>
+              <li>
+                Win by completing a winning pattern, such as a full line,
+                diagonal, or full house, before others do.
+              </li>
+            </ol>
+          </section>
+          <section>
+            <h2>Classic Bingo Vibes With a Modern Twist</h2>
+            <p>
+              While Fat Pirate Bingo features lively animations and quirky
+              themes, it stays true to the spirit of traditional Bingo —
+              simple rules, fast-paced fun, and the satisfying rush of
+              watching numbers fall into place. For players who enjoy a
+              nostalgic twist on gameplay, Fat Pirate offers several
+              Bingo-style games that stick closely to classic mechanics while
+              adding a splash of character and colour. Here’s a step-by-step
+              guide to how classic-style Bingo plays out:
+            </p>
+            <ol>
+              <li>
+                <strong>Buy Your Bingo Card</strong>: Choose your game and
+                purchase one or more Bingo cards, each featuring a 5x5 grid
+                filled with numbers. The centre square is usually a free
+                space, just like in old-school halls.
+              </li>
+              <li>
+                <strong>Watch the Draw Unfold</strong>: Numbers are pulled
+                using a certified Random Number Generator (RNG), ensuring
+                every Draw is fair and unpredictable. Numbers appear in
+                real-time during the game.
+              </li>
+              <li>
+                <strong>Mark Your Numbers</strong>: Matching numbers are
+                automatically marked as they’re drawn, so you can sit back and
+                enjoy the action without missing a beat.
+              </li>
+              <li>
+                <strong>Complete the Pattern</strong>: The aim is to complete
+                a designated winning pattern, such as a full horizontal line,
+                diagonal, four corners, or the coveted full house. The
+                required pattern is displayed at the start of each game.
+              </li>
+              <li>
+                <strong>Let the System Do the Work</strong>: No need to
+                manually shout "Bingo!" — if you land the winning combo first,
+                the system recognises your victory instantly.
+              </li>
+              <li>
+                <strong>Collect Your Winnings</strong>: Winning cards award
+                real-money prizes based on your stake and the game’s prize
+                structure. Higher stakes usually mean bigger rewards.
+              </li>
+            </ol>
+          </section>
+          <section>
+            <h2>Safe, Fair &amp; Totally Secure Bingo Gameplay</h2>
+            <p>
+              Security and fairness are top priorities while playing Fat
+              Pirate Bingo games, making it a trustworthy destination for both
+              casual players and serious Bingo fans. Every Bingo-style game on
+              the platform runs on certified Random Number Generators (RNGs),
+              ensuring every draw is completely fair and free from
+              manipulation. These games come from licensed and reputable
+              developers, adding another layer of credibility to the
+              experience.
+            </p>
+            <p>
+              In addition to fair play, Fat Pirate Casino protects all user
+              information with advanced SSL encryption, safeguarding personal
+              and payment details at all times. The platform also complies
+              with strict anti-fraud policies and promotes responsible
+              gambling, giving players full peace of mind every time they log
+              in. Whether you're playing for fun or aiming for a jackpot, you
+              can enjoy the thrill of Fat Pirate Bingo knowing you're in safe
+              hands.
+            </p>
+          </section>
+          <section>
+            <h2>Bingo Fun with a Pirate Twist</h2>
+            <p>
+              Fat Pirate Bingo delivers a fresh, engaging twist on a timeless
+              classic, while also featuring traditional 75-ball and 90-ball
+              Bingo halls for those who enjoy the authentic format. Alongside
+              these classics, the platform offers a vibrant collection of
+              Bingo-style games packed with bold visuals, exciting features,
+              and real cash prizes. Whether you're in it for the nostalgic
+              feel, quick rounds, or the thrill of matching numbers for
+              multipliers, there's something to enjoy on every spin.
+            </p>
+            <p>
+              Fully optimised for mobile, backed by trusted developers, and
+              easy to access from any device, Fat Pirate Bingo is perfect for
+              both newcomers and long-time fans of the genre. With fair play,
+              secure gameplay, and a pirate-themed charm that adds a splash of
+              fun, it’s a standout part of the Fat Pirate Casino experience.
+              Ready to take a chance? Your next lucky round might just be one
+              click away.
+            </p>
+          </section>
+
+          <section class="accordion">
+            <h2>FAQ</h2>
+
+            <div class="accordion-item">
+              <h3 class="accordion-title">
+                What types of bingo games can I play at Fat Pirate Casino?
+              </h3>
+              <p class="accordion-content">
+                Fat Pirate Bingo offers a unique mix of classic 75-ball and
+                90-ball formats, along with a variety of Bingo-style games
+                featuring creative themes and engaging features.
+              </p>
+            </div>
+
+            <div class="accordion-item">
+              <h3 class="accordion-title">
+                Can I try Fat Pirate Bingo games for free?
+              </h3>
+              <p class="accordion-content">
+                Yes. Many titles on the site offer demo versions, allowing
+                players to explore the gameplay without spending real money.
+                It’s a great way to test different styles and find your
+                favourite before placing real bets.
+              </p>
+            </div>
+
+            <div class="accordion-item">
+              <h3 class="accordion-title">
+                Do Bingo games at Fat Pirate include jackpots?
+              </h3>
+              <p class="accordion-content">
+                Some Bingo-style games, including Super Hot Bingo and Hanuman
+                Bingo, offer either fixed high payouts or progressive jackpot
+                features. This adds extra excitement for those looking to land
+                bigger wins.
+              </p>
+            </div>
+
+            <div class="accordion-item">
+              <h3 class="accordion-title">
+                Is it possible to win real money playing Bingo at Fat Pirate?
+              </h3>
+              <p class="accordion-content">
+                Absolutely. When you play in real money mode, any winning
+                ticket or completed pattern could result in a cash payout.
+                Just check the rules and prize structure for each game to see
+                what’s on offer.
+              </p>
+            </div>
+
+            <div class="accordion-item">
+              <h3 class="accordion-title">
+                Is Bingo at Fat Pirate mobile-friendly?
+              </h3>
+              <p class="accordion-content">
+                Yes – all Bingo games are fully optimised for mobile browsers.
+                Whether you’re on a smartphone or tablet, Fat Pirate Bingo
+                runs smoothly without needing to download an app. Just log in
+                and start playing on the go.
+              </p>
+            </div>
+          </section>
+        </div>
+      </div>
+    </main>
+  </div>
+
+  <footer class="footer">
+    <div class="footer__wrapper">
+      <div class="providers">
+        <div class="paySystems__wrapper">
+          <div class="paySystems__item">
+            <img src="./images/icons/paySystems/visalarge.svg" width="130" height="76" alt="Visa" loading="lazy" />
+          </div>
+          <div class="paySystems__item">
+            <img src="./images/icons/paySystems/mastercardlarge.svg" width="130" height="76" alt="MasterCard"
+              loading="lazy" />
+          </div>
+          <div class="paySystems__item">
+            <img src="./images/icons/paySystems/interac-2.svg" width="130" height="76" alt="Interac" loading="lazy" />
+          </div>
+        </div>
+      </div>
+
+      <div class="footer__main">
+        <nav class="footer__nav">
+          <ul class="footer__nav-list">
+            <li class="footer__nav-item">
+              <a href="./contacts.html" class="footer__nav-link">Contacts</a>
+            </li>
+            <li class="footer__nav-item">
+              <a href="./policy.html" class="footer__nav-link">Privacy Notice</a>
+            </li>
+            <li class="footer__nav-item">
+              <a href="./terms.html" class="footer__nav-link">Terms & Conditions</a>
+            </li>
+            <li class="footer__nav-item">
+              <a href="./responsible-gaming.html" class="footer__nav-link">Responsible Gambling</a>
+            </li>
+            <li class="footer__nav-item">
+              <a href="./help-centre.html" class="footer__nav-link">Help Centre</a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+      <div class="footer__images-info">
+        <img src="./images/icons/18+.svg" height="40" width="40" loading="lazy" alt="18+ only logo" />
+        <img src="./images/icons/unoaffiliates.svg" height="40" width="70" loading="lazy" alt="unoaffiliates logo" />
+      </div>
+
+      <div class="footer__copywrite">
+        <p class="footer__copywrite-text1">
+          Gambling can be addictive. Play responsibly. FatPirate.com only
+          accepts customers over 18 years of age.
+        </p>
+        <div class="footer__copywrite-text2">
+          2025 © FatPirate.com All rights reserved.
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <button aria-label="scroll" id="scrollToTopBtn" class="scrollToTopBtn">
+    <img loading="lazy" width="24" height="24" src="./images/icons/buttons/up-arrow.png" alt="arrow-up" />
+  </button>
+  <script type="module" src="./scripts/main.js"></script>
+</body>
+
+</html>

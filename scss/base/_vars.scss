@@ -1,0 +1,128 @@
+:root {
+
+  //main
+  --text-color-secondary: #dbd3cc;
+  --text-color-white: #fff;
+  --text-color-black: #000;
+  --color-light-grey: #C9CCDF;
+  --color-light-grey2: #282D44;
+  --main-color-background: #201610;
+  --scroll-to-top-background: #916641;
+  --color-hr: #1f2442;
+
+  //aside
+  --aside-border-color: #916641;
+  --aside-background: rgb(27 18 13);
+
+  //banner
+  --banner-border: #442408;
+  --banner-box-shadow: 0 4px 10px 0 #00000050;
+  --registration__button-banner-color: linear-gradient(#813116, #ac3d1d);
+  --registration__button-banner-background: linear-gradient(180deg, #f2c95f 0%, #de7d46 100%);
+
+  //buttons / links
+
+  --link-header-border-color: #3E4468;
+  --link-header-color: #ebb4ff;
+  --link-header-color-hover: #3E4468;
+
+  --button-background: #69f67f;
+  --button-background-hover: #82f894;
+  --button-text-color: #131520;
+
+  //header
+
+  --header-background: #1b120d;
+  --header-link-color: rgb(198 171 148);
+  --header-link-color-hover: rgb(226 190 70)
+  --header-gift-color: #355BE2;
+  --header-border: rgb(63 45 35);
+
+  --header-mobile-background: rgb(22 9 50);
+  --header-links-background-hover: #333856;
+  --header__mobile-nav-item-background-hover: #0000004c;
+
+  //table 
+
+  --table-background: #261c12d5;
+  --table-background2: #0e2f4d91;
+  --table-link-color: #fcdd59;
+ 
+
+ // mini-games
+
+ --text-color-name: #edeef4;
+ --text-color-creator: #5e689e;
+  --card-item-border: rgb(102 98 132) solid 1px;
+  --card--item-bottom-background: rgb(3 10 10);
+  --card--item-bottom-background-image: linear-gradient(rgb(56 29 110), #381d6e33);
+
+  //footer
+
+  --color-border: #585c834d;
+  --footer-background: #1b120d;
+  --paySystems__background: rgb(3 10 10);
+
+
+  // contacts-form
+  
+  --background-form: #1e2132;
+  --background-form-input: #201610;
+  --background-form-button: #916641;
+  --text-form-button: #464a77;
+  --background-form-button-hover: #885b33;
+  --color-form-text: #fff;
+
+
+  //trustpilot
+
+  --trustpilot-review__link-color: #ffc700;
+  --trustpilot-border: 1px solid #e5e5dd;
+  --trustpilot-border-bottom: 1px solid #e6e6e6;
+  --trustpilot-border-top: 1px solid #e6e6e6;
+  --trustpilot-color-name: #191919;
+  --trustpilot-color-meta: #6a6a67;
+  --trustpilot-color-date: #6b6b6b;
+  --trustpilot-color-blue: #0c59f2;
+
+
+  //accordion
+
+  --item-background: #39261aec;
+  --item-border: #5b3413;
+
+  //contacts page
+
+  --form--background: #291750;
+
+
+  //privacy/ 
+
+  --text-color-privacy: rgb(198 171 148);
+  --link-color-privacy: rgb(226, 140, 65);
+  // responsible-gaming
+
+  --text-color-links: #c274ff;
+  --text-color-links-hover: #a737ff;
+
+
+  //hepl-centre
+
+  --help-border: #a837ff4b;
+  --help-background-image: linear-gradient(#29174f, #381d6e);
+  --help-background-image-before: linear-gradient(rgb(41 23 79), rgb(173 0 255));
+  --help-background-color-hover: linear-gradient(#29174f, #381d6e);
+  --help-link-color: #c274ff;
+  --help-link-color-hover: #a737ff;
+
+  // facebook reviews
+
+  --facebook-item--bg: #fff ;
+
+  //game-card
+
+  --game-card-hover: rgba(0, 0, 0, 0.789);
+
+
+}
+

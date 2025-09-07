@@ -1,0 +1,883 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" type="image/x-icon" href="./images/favicon/favicon.ico" />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon/favicon-32x32.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="16x16"
+      href="./images/favicon/favicon-16x16.png"
+    />
+
+    <title>Fat Pirate Casino - App</title>
+
+    <meta property="og:title" content="Fat Pirate" />
+    <meta property="og:description" content="Fat Pirate Casino" />
+    <meta property="og:type" content="website" />
+    <meta property="og:image" content="./images/icons/fatpirate400x400.webp" />
+
+    <link rel="stylesheet" href="./css/main.min.css" />
+  </head>
+
+  <body class="body">
+    <div class="wrapper">
+      <header class="header">
+        <div class="container container--header">
+          <div class="header__wrapper">
+            <button class="header__burger" aria-label="burger">
+              <img
+                src="./images/icons/burger/burger.svg"
+                loading="lazy"
+                height="30"
+                width="30"
+                alt="open menu"
+                class="header__burger-icon"
+              />
+              <img
+                src="./images/icons/burger/windowclose.svg"
+                loading="lazy"
+                height="30"
+                width="30"
+                alt="close menu"
+                class="header__burger-icon header__burger-icon--active"
+              />
+            </button>
+            <div class="header__logo-wrapper">
+              <a href="./index.html" class="header__logo-link">
+                <img
+                  class="header__logo"
+                  width="68"
+                  height="42"
+                  src="./images/icons/logo-main.webp"
+                  alt="Fat Pirate logo"
+                />
+              </a>
+            </div>
+
+            <nav class="header__nav">
+              <div class="header__buttons-wrapper">
+                <div class="header__button">
+                  <a
+                    href="./login.html"
+                    aria-label="log-in"
+                    class="header__button-link link--login"
+                    >LOG IN</a
+                  >
+                </div>
+                <div class="header__button">
+                  <button
+                    aria-label="registration"
+                    class="header__button-link registration__button tike"
+                  >
+                    REGISTER
+                  </button>
+                </div>
+              </div>
+            </nav>
+
+            <!-- Мобильное меню -->
+
+            <div class="header__mobile-menu">
+              <div class="header__mobile-menu-header">
+                <img
+                  src="./images/icons/logo-main.webp"
+                  width="80"
+                  height="55"
+                  loading="lazy"
+                  alt="logo - Fat Pirate Casino"
+                />
+              </div>
+              <div class="header__mobile-nav-items">
+                <div class="header__mobile-nav-links-wrapper">
+                  <div>
+                    <a
+                      href="./login.html"
+                      aria-label="log-in"
+                      class="link--login header__button-link--login-mobile"
+                      >Log in</a
+                    >
+                  </div>
+                  <div>
+                    <button
+                      aria-label="registration"
+                      class="registration__button header__button-link--registration-mobile tike"
+                    >
+                      REGISTER
+                    </button>
+                  </div>
+                </div>
+
+                <div class="header__mobile-nav-item">
+                  <a
+                    href="./app.html"
+                    rel="nofollow"
+                    class="header__mobile-nav-link active-menu"
+                    ><img
+                      loading="lazy"
+                      width="30"
+                      height="28"
+                      src="./images/icons/menu-icons/app.png"
+                      loading="lazy"
+                      width="30"
+                      height="30"
+                      alt="app"
+                    />App</a
+                  >
+                </div>
+                <div class="header__mobile-nav-item">
+                  <a
+                    href="./betting.html"
+                    rel="nofollow"
+                    class="header__mobile-nav-link"
+                    ><img
+                      loading="lazy"
+                      width="30"
+                      height="28"
+                      src="./images/icons/menu-icons/betting.png"
+                      alt="betting"
+                    />Betting</a
+                  >
+                </div>
+
+                <div class="header__mobile-nav-item">
+                  <a
+                    href="./bonus.html"
+                    rel="nofollow"
+                    class="header__mobile-nav-link"
+                    ><img
+                      loading="lazy"
+                      width="30"
+                      height="28"
+                      src="./images/icons/menu-icons/bonus.png"
+                      alt="bonus"
+                    />Bonus</a
+                  >
+                </div>
+
+                <div class="header__mobile-nav-item">
+                  <a
+                    href="./no-deposit-bonus.html"
+                    rel="nofollow"
+                    class="header__mobile-nav-link"
+                    ><img
+                      loading="lazy"
+                      width="30"
+                      height="28"
+                      src="./images/icons/menu-icons/no-dep.png"
+                      alt="no-dep"
+                    />No Deposit Bonus</a
+                  >
+                </div>
+                <div class="header__mobile-nav-item">
+                  <a
+                    href="./review-trustpilot.html"
+                    rel="nofollow"
+                    class="header__mobile-nav-link"
+                    ><img
+                      loading="lazy"
+                      width="30"
+                      height="28"
+                      src="./images/icons/menu-icons/Review.png"
+                      alt="Review"
+                    />Review</a
+                  >
+                </div>
+                <div class="header__mobile-nav-item">
+                  <a
+                    href="./free-spins.html"
+                    rel="nofollow"
+                    class="header__mobile-nav-link"
+                    ><img
+                      loading="lazy"
+                      width="30"
+                      height="28"
+                      src="./images/icons/menu-icons/fs.png"
+                      alt="Free Spins"
+                    />Free Spins</a
+                  >
+                </div>
+                <div class="header__mobile-nav-item">
+                  <a
+                    href="./promo-code.html"
+                    rel="nofollow"
+                    class="header__mobile-nav-link"
+                    ><img
+                      loading="lazy"
+                      width="30"
+                      height="28"
+                      src="./images/icons/menu-icons/promo.png"
+                      alt="Promo Code"
+                    />Promo Code</a
+                  >
+                </div>
+                <div class="header__mobile-nav-item has-submenu">
+                  <div class="header__mobile-nav-link-wrapper">
+                    <a
+                      href="./slots.html"
+                      class="header__mobile-nav-link header__mobile-nav-link--slots"
+                      ><img
+                        src="./images/icons/menu-icons/Slots.png"
+                        loading="lazy"
+                        width="30"
+                        height="28"
+                        alt="Slots"
+                      />Slots</a
+                    >
+                    <button class="submenu-toggle">
+                      <img
+                        src="./images/icons/arrow-accordion.svg"
+                        loading="lazy"
+                        width="20"
+                        height="20"
+                        alt="toggle"
+                      />
+                    </button>
+                  </div>
+                  <div class="header__submenu">
+                    <a href="./plinko.html" class="header__submenu-link"
+                      >Plinko</a
+                    >
+                    <a href="./bingo.html" class="header__submenu-link"
+                      >Bingo</a
+                    >
+                  </div>
+                </div>
+                <div class="header__mobile-nav-item">
+                  <a
+                    href="./withdrawal-times.html"
+                    rel="nofollow"
+                    class="header__mobile-nav-link"
+                    ><img
+                      loading="lazy"
+                      width="30"
+                      height="28"
+                      src="./images/icons/menu-icons/wt.png"
+                      alt="Withdrawal Times"
+                    />Withdrawal Times</a
+                  >
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </header>
+
+      <main class="main">
+        <div class="body-wrapper">
+          <div class="header__overlay"></div>
+          <div class="menu-wrapper">
+            <nav class="menu">
+              <div class="menu__decor"></div>
+
+              <ul class="menu__list">
+                <li class="menu__item active-menu">
+                  <a
+                    href="./app.html"
+                    rel="nofollow"
+                    class="menu__link active-menu"
+                    ><img
+                      loading="lazy"
+                      width="30"
+                      height="28"
+                      src="./images/icons/menu-icons/app.png"
+                      loading="lazy"
+                      width="30"
+                      height="30"
+                      alt="app"
+                    />App</a
+                  >
+                </li>
+                <li class="menu__item">
+                  <a href="./betting.html" rel="nofollow" class="menu__link"
+                    ><img
+                      loading="lazy"
+                      width="30"
+                      height="28"
+                      src="./images/icons/menu-icons/betting.png"
+                      alt="betting"
+                    />Betting</a
+                  >
+                </li>
+
+                <li class="menu__item">
+                  <a href="./bonus.html" rel="nofollow" class="menu__link"
+                    ><img
+                      loading="lazy"
+                      width="30"
+                      height="28"
+                      src="./images/icons/menu-icons/bonus.png"
+                      alt="bonus"
+                    />Bonus</a
+                  >
+                </li>
+
+                <li class="menu__item">
+                  <a
+                    href="./no-deposit-bonus.html"
+                    rel="nofollow"
+                    class="menu__link"
+                    ><img
+                      loading="lazy"
+                      width="30"
+                      height="28"
+                      src="./images/icons/menu-icons/no-dep.png"
+                      alt="no-dep"
+                    />No Deposit Bonus</a
+                  >
+                </li>
+
+                <li class="menu__item">
+                  <a
+                    href="./review-trustpilot.html"
+                    rel="nofollow"
+                    class="menu__link"
+                    ><img
+                      loading="lazy"
+                      width="30"
+                      height="28"
+                      src="./images/icons/menu-icons/Review.png"
+                      alt="Review"
+                    />Review</a
+                  >
+                </li>
+
+                <li class="menu__item">
+                  <a href="./free-spins.html" rel="nofollow" class="menu__link"
+                    ><img
+                      loading="lazy"
+                      width="30"
+                      height="28"
+                      src="./images/icons/menu-icons/fs.png"
+                      alt="Free Spins"
+                    />Free Spins</a
+                  >
+                </li>
+                <li class="menu__item">
+                  <a href="./promo-code.html" rel="nofollow" class="menu__link"
+                    ><img
+                      loading="lazy"
+                      width="30"
+                      height="28"
+                      src="./images/icons/menu-icons/promo.png"
+                      alt="Promo Code"
+                    />Promo Code</a
+                  >
+                </li>
+                <li class="menu__item">
+                  <a
+                    href="./slots.html"
+                    rel="nofollow"
+                    class="menu__link menu__link-with-submenu"
+                  >
+                    <span class="menu__text"
+                      ><img
+                        src="./images/icons/menu-icons/Slots.png"
+                        alt="Slots"
+                      />Slots</span
+                    >
+                    <button class="menu__submenu-toggle" data-submenu-toggle>
+                      <img
+                        src="./images/icons/arrow-accordion.svg"
+                        loading="lazy"
+                        width="20"
+                        height="20"
+                        alt="Arrow"
+                        class="menu__arrow"
+                      />
+                    </button>
+                  </a>
+                  <ul class="menu__dropdown">
+                    <li class="menu__item">
+                      <a href="./plinko.html" rel="nofollow" class="menu__link"
+                        >Plinko</a
+                      >
+                    </li>
+                    <li class="menu__item">
+                      <a href="./bingo.html" rel="nofollow" class="menu__link"
+                        >Bingo</a
+                      >
+                    </li>
+                  </ul>
+                </li>
+                <li class="menu__item">
+                  <a
+                    href="./withdrawal-times.html"
+                    rel="nofollow"
+                    class="menu__link"
+                    ><img
+                      loading="lazy"
+                      width="30"
+                      height="28"
+                      src="./images/icons/menu-icons/wt.png"
+                      alt="Withdrawal Times"
+                    />Withdrawal Times</a
+                  >
+                </li>
+              </ul>
+            </nav>
+          </div>
+          <div class="main-content__wrapper">
+            <section class="promo" id="promo">
+              <h1>Fat Pirate App</h1>
+              <p>
+                In today's fast-paced digital age, players expect quick and
+                convenient access to their favourite games – anytime, anywhere.
+                While there's currently no official Fat Pirate app available for
+                download, the good news is that the entire platform has been
+                expertly optimised for mobile use. Whether you're on Android or
+                iOS, Fat Pirate Casino delivers a seamless, app-like experience
+                straight from your browser.
+              </p>
+              <div class="banner banner--bot tike">
+                <picture>
+                  <source
+                    media="(min-width: 1200px)"
+                    srcset="./images/banners/banner12-1600.webp"
+                    width="1600"
+                    height="400"
+                  />
+                  <source
+                    media="(min-width: 769px)"
+                    srcset="./images/banners/banner12-1200.webp"
+                    width="1200"
+                    height="300"
+                  />
+                  <source
+                    media="(min-width: 451px)"
+                    srcset="./images/banners/banner12-768.webp"
+                    width="768"
+                    height="200"
+                  />
+                  <source
+                    media="(max-width: 450px)"
+                    srcset="./images/banners/banner12-400.webp"
+                    width="450"
+                    height="150"
+                  />
+                  <img
+                    src="./images/banners/banner12-1600.webp"
+                    loading="lazy"
+                    alt="Essential Features and Benefits of the Mobile Platform"
+                    width="1600"
+                    height="400"
+                  />
+                </picture>
+                <div class="banner__content">
+                  <div class="banner__title">200% UP TO €500</div>
+                  <button
+                    aria-label="Registration"
+                    class="registration__button-banner tike"
+                  >
+                    <span>SIGN UP</span>
+                  </button>
+                </div>
+              </div>
+              <p>
+                With no downloads required, you can enjoy all of the same
+                features as desktop users: spinning the reels, placing sports
+                bets, claiming bonuses, and managing your account. The mobile
+                version of the Fat Pirate casino app runs smoothly on all modern
+                devices, making it easy to set sail and play on the go.
+              </p>
+              <p>
+                In this guide, we'll show you how to make the most of the mobile
+                version of Fat Pirate Casino, covering everything from getting
+                started to unlocking bonuses and navigating gameplay with ease.
+              </p>
+            </section>
+            <section>
+              <h2 id="navigating">Navigating the Mobile Gaming Experience</h2>
+              <p>
+                Mobile gaming has transformed the way players engage with online
+                casinos, and Fat Pirate Casino is no exception. Even without a
+                dedicated Fat Pirate app, the platform offers a fully responsive
+                mobile website that functions flawlessly across all modern
+                devices. Whether you're using a smartphone or tablet, the
+                experience remains smooth, intuitive, and packed with features.
+              </p>
+              <p>
+                The Fat Pirate mobile platform provides full access to slots,
+                sports betting, promotions, and account management tools.
+                Navigation is simple, loading times are fast, and the layout
+                adapts perfectly to any screen size. With no downloads
+                necessary, you can enjoy uninterrupted gameplay and claim your
+                favourite bonuses wherever your pirate adventure takes you.
+              </p>
+            </section>
+            <section>
+              <h2 id="essential">
+                Essential Features and Benefits of the Mobile Platform
+              </h2>
+              <p>
+                Mobile gameplay is a core part of the Fat Pirate Casino
+                experience, offering players the freedom to enjoy their
+                favourite slots, promotions, and sports betting features
+                anytime, anywhere. Although there’s no official Fat Pirate app
+                available, the mobile version of the site delivers everything
+                you’d expect from a native application, without taking up any
+                space on your device. Here’s what makes the mobile platform at
+                Fat Pirate Casino truly stand out:
+              </p>
+
+              <ul>
+                <li>
+                  <strong>No App Needed</strong>: Play instantly from your
+                  mobile browser with no need to install software or worry about
+                  updates.
+                </li>
+                <li>
+                  <strong>Full Game Access</strong>: Enjoy the same selection of
+                  slots, live games, and sports betting options available on
+                  your desktop.
+                </li>
+                <li>
+                  <strong>Optimised for All Devices</strong>: The mobile site is
+                  fully responsive and works smoothly across all screen sizes,
+                  including phones and tablets.
+                </li>
+                <li>
+                  <strong>Fast and Secure Transactions</strong>: Deposit,
+                  withdraw, and manage your balance safely and efficiently while
+                  on the go.
+                </li>
+                <li>
+                  <strong>Cross-Platform Compatibility</strong>: Whether you're
+                  using Android, iOS, or another system, the platform performs
+                  flawlessly.
+                </li>
+                <li>
+                  <strong>Instant Play &amp; Promotions</strong>: Access new
+                  games and claim bonuses instantly – no delays, no Fat Pirate
+                  app free downloads required.
+                </li>
+              </ul>
+            </section>
+            <section>
+              <h2 id="how">How to Play on Mobile in Just a Few Steps</h2>
+              <p>
+                Even without a dedicated Fat Pirate betting app, players can
+                enjoy a fully immersive and high-performance experience simply
+                by visiting the mobile version of the site. There’s no need to
+                download or install anything—just open your browser and dive
+                straight into the action. The mobile platform offers the same
+                level of functionality as the desktop version, including access
+                to slots, table games, sports betting, tournaments, promotions,
+                and secure banking.
+              </p>
+
+              <p>
+                Whether you’re placing a live football bet, spinning the reels,
+                or claiming a weekend bonus, everything is just a tap away. The
+                intuitive layout, fast loading times, and responsive design make
+                it feel like you’re using a native Fat Pirate app, even though
+                you’re playing straight from your browser. Here’s how to start
+                playing on the go in just a few quick steps:
+              </p>
+              <ol>
+                <li>
+                  <strong>Open Your Mobile Browser</strong>: Use Safari, Chrome,
+                  Firefox, or any preferred browser on your smartphone or
+                  tablet.
+                </li>
+                <li>
+                  <strong>Visit the Official Casino Website</strong>: Enter the
+                  Fat Pirate Casino URL to load the mobile site.
+                </li>
+                <li>
+                  <strong>Log In or Register</strong>: Use your existing
+                  credentials to complete the login, or create a new account in
+                  under a minute.
+                </li>
+                <li>
+                  <strong>Enjoy Full Access</strong>: Play slots, place sports
+                  bets, manage your balance, and claim bonuses – all optimised
+                  for mobile without the need for a Fat Pirate casino app
+                  download.
+                </li>
+                <li>
+                  <strong>Add to Home Screen (Optional)</strong>: For a
+                  native-like experience, you can save the mobile site to your
+                  home screen, making it feel like a betting app without needing
+                  to install anything.
+                </li>
+              </ol>
+            </section>
+            <section>
+              <h2 id="supported">Supported Devices and Accessible Platforms</h2>
+              <p>
+                While there’s currently no dedicated Fat Pirate app, the
+                mobile-optimised website makes it easy to enjoy a full-featured
+                casino experience from virtually any device. The platform is
+                designed to function flawlessly across a wide range of operating
+                systems and screen sizes, giving players total freedom over when
+                and where they play. Whether you’re relaxing at home or on the
+                move, Fat Pirate Casino is always just a tap or click away.
+              </p>
+              <p>
+                The user interface adjusts automatically based on the device
+                you’re using, offering the same smooth navigation, fast
+                performance, and full functionality you'd expect from a native
+                Fat Pirate app. From spinning slots and claiming bonuses to
+                placing live bets and contacting support, the entire experience
+                is fully accessible—no downloads required. Here’s where you can
+                play:
+              </p>
+              <ul>
+                <li>
+                  <strong>Desktop (PC &amp; Mac)</strong>: Launch Fat Pirate
+                  Casino from any modern web browser on Windows or macOS for a
+                  premium, full-screen gaming session with complete access to
+                  the platform’s features.
+                </li>
+                <li>
+                  <strong>Smartphones (iOS &amp; Android)</strong>: Use Chrome,
+                  Safari, or your preferred browser to enjoy the mobile site,
+                  which mirrors the desktop version in design and performance,
+                  without the need for a Fat Pirate app download.
+                </li>
+                <li>
+                  <strong>Tablets (iPad &amp; Android Tablets)</strong>: Play
+                  your favourite games on a larger screen while enjoying the
+                  touch-friendly layout and mobile-optimised responsiveness of
+                  the platform.
+                </li>
+                <li>
+                  <strong>Laptops</strong>: Whether you’re using a Windows
+                  laptop or a MacBook, Fat Pirate Casino performs smoothly,
+                  offering full access to games, promotions, payments, and
+                  support—all without compromise.
+                </li>
+              </ul>
+            </section>
+            <section>
+              <h2 id="play">Play Smoothly with Fat Pirate on Mobile</h2>
+              <p>
+                Although there is no dedicated Fat Pirate app, the mobile
+                experience at Fat Pirate Casino is second to none. The
+                platform’s mobile-friendly website is fully optimised for
+                seamless performance across smartphones, tablets, and other
+                devices, delivering all the same features, games, and bonuses
+                available on desktops.
+              </p>
+              <p>
+                Players can access everything directly through their browser,
+                with no downloads or installations required. From smooth
+                navigation to fast load times, the interface is intuitive and
+                responsive, making it easy to manage your account, place bets,
+                and claim promotions on the go.
+              </p>
+              <p>
+                As long as you have a stable internet connection, you can enjoy
+                uninterrupted gameplay, live dealer sessions, and quick
+                transactions from anywhere. Whether you’re spinning reels on
+                your commute or betting from your sofa, Fat Pirate ensures that
+                the mobile experience is reliable, secure, and always within
+                reach.
+              </p>
+            </section>
+
+            <section class="accordion">
+              <h2>FAQ</h2>
+
+              <div class="accordion-item">
+                <h3 class="accordion-title">
+                  Does Fat Pirate Casino have a mobile app?
+                </h3>
+                <p class="accordion-content">
+                  Currently, there is no official Fat Pirate app available for
+                  download. However, players can enjoy a fully optimised mobile
+                  version of the website that works seamlessly on smartphones,
+                  tablets, and other portable devices. Whether you're using
+                  Android or iOS, all features are accessible directly via your
+                  browser.
+                </p>
+              </div>
+
+              <div class="accordion-item">
+                <h3 class="accordion-title">
+                  Can I play Fat Pirate Casino on my mobile device?
+                </h3>
+                <p class="accordion-content">
+                  Absolutely! The casino is fully mobile-compatible, allowing
+                  players to access their accounts, spin the reels, place bets,
+                  and claim promotions—all from their mobile browser, with no
+                  app download required.
+                </p>
+              </div>
+
+              <div class="accordion-item">
+                <h3 class="accordion-title">
+                  Does the mobile version have the same games as the desktop
+                  site?
+                </h3>
+                <p class="accordion-content">
+                  Yes, the full game library—including slots, table games, live
+                  dealer titles, and sports betting—is available on mobile.
+                  There are no restrictions or reduced versions.
+                </p>
+              </div>
+
+              <div class="accordion-item">
+                <h3 class="accordion-title">
+                  Do I need to download any software to play on mobile?
+                </h3>
+                <p class="accordion-content">
+                  No. Simply open your preferred browser (Chrome, Safari,
+                  Firefox, etc.), visit the Fat Pirate Casino site, log in or
+                  register, and start playing. No additional downloads or
+                  installations are necessary.
+                </p>
+              </div>
+
+              <div class="accordion-item">
+                <h3 class="accordion-title">
+                  Can I make deposits and withdrawals from my mobile device?
+                </h3>
+                <p class="accordion-content">
+                  Yes, all payment and banking features are available on mobile.
+                  Players can make deposits, request withdrawals, and even
+                  verify their accounts using just their phone or tablet.
+                </p>
+              </div>
+
+              <div class="accordion-item">
+                <h3 class="accordion-title">
+                  Is the mobile version safe to use?
+                </h3>
+                <p class="accordion-content">
+                  Yes, the mobile platform uses the same secure encryption
+                  technology as the desktop version. Your data and transactions
+                  remain protected, and you’re advised to log out after each
+                  session for added security.
+                </p>
+              </div>
+
+              <div class="accordion-item">
+                <h3 class="accordion-title">
+                  Can I add Fat Pirate Casino to my home screen like an app?
+                </h3>
+                <p class="accordion-content">
+                  Yes! You can easily save the mobile website to your home
+                  screen for quick, one-tap access, giving you an app-like
+                  experience without needing to install the actual Fat Pirate
+                  app.
+                </p>
+              </div>
+            </section>
+          </div>
+        </div>
+      </main>
+    </div>
+
+    <footer class="footer">
+      <div class="footer__wrapper">
+        <div class="providers">
+          <div class="paySystems__wrapper">
+            <div class="paySystems__item">
+              <img
+                src="./images/icons/paySystems/visalarge.svg"
+                width="130"
+                height="76"
+                alt="Visa"
+                loading="lazy"
+              />
+            </div>
+            <div class="paySystems__item">
+              <img
+                src="./images/icons/paySystems/mastercardlarge.svg"
+                width="130"
+                height="76"
+                alt="MasterCard"
+                loading="lazy"
+              />
+            </div>
+            <div class="paySystems__item">
+              <img
+                src="./images/icons/paySystems/interac-2.svg"
+                width="130"
+                height="76"
+                alt="Interac"
+                loading="lazy"
+              />
+            </div>
+          </div>
+        </div>
+
+        <div class="footer__main">
+          <nav class="footer__nav">
+            <ul class="footer__nav-list">
+              <li class="footer__nav-item">
+                <a href="./contacts.html" class="footer__nav-link">Contacts</a>
+              </li>
+              <li class="footer__nav-item">
+                <a href="./policy.html" class="footer__nav-link"
+                  >Privacy Notice</a
+                >
+              </li>
+              <li class="footer__nav-item">
+                <a href="./terms.html" class="footer__nav-link"
+                  >Terms & Conditions</a
+                >
+              </li>
+              <li class="footer__nav-item">
+                <a href="./responsible-gaming.html" class="footer__nav-link"
+                  >Responsible Gambling</a
+                >
+              </li>
+              <li class="footer__nav-item">
+                <a href="./help-centre.html" class="footer__nav-link"
+                  >Help Centre</a
+                >
+              </li>
+            </ul>
+          </nav>
+        </div>
+        <div class="footer__images-info">
+          <img
+            src="./images/icons/18+.svg"
+            height="40"
+            width="40"
+            loading="lazy"
+            alt="18+ only logo"
+          />
+          <img
+            src="./images/icons/unoaffiliates.svg"
+            height="40"
+            width="70"
+            loading="lazy"
+            alt="unoaffiliates logo"
+          />
+        </div>
+
+        <div class="footer__copywrite">
+          <p class="footer__copywrite-text1">
+            Gambling can be addictive. Play responsibly. FatPirate.com only
+            accepts customers over 18 years of age.
+          </p>
+          <div class="footer__copywrite-text2">
+            2025 © FatPirate.com All rights reserved.
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <button aria-label="scroll" id="scrollToTopBtn" class="scrollToTopBtn">
+      <img
+        loading="lazy"
+        width="24"
+        height="24"
+        src="./images/icons/buttons/up-arrow.png"
+        alt="arrow-up"
+      />
+    </button>
+    <script type="module" src="./scripts/main.js"></script>
+  </body>
+</html>

@@ -1,0 +1,268 @@
+.header {
+  background: var(--header-background) url(../../images/icons/header/header-bg.webp) repeat-x 0 0 / contain;
+  left: 0;
+  position: fixed;
+  top: -1px;
+  z-index: 90;
+  padding: 6px 0;
+  width: 100%;
+  border-bottom: 1px solid var(--header-border);
+
+  @media (max-width:600px) {
+    padding-bottom: 10px;
+  }
+
+  &__wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    @media (max-width:890px) {
+      padding-right: 40px;
+    }
+
+    @media (max-width:600px) {
+      padding-right: 0;
+    }
+
+
+
+    @media (min-width:1400px) {
+      padding: 0 30px;
+
+    }
+
+    @media (max-width:600px) {
+      flex-direction: column;
+      align-items: center;
+    }
+  }
+
+  &__logo-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    @media (max-width:600px) {
+      margin-left: 0px;
+    }
+  }
+
+  &__logo-link {
+    max-width: 200px;
+    width: max-content;
+    height: 100%;
+    display: inline-flex;
+    justify-content: center;
+
+    @media (max-width: 700px) {
+      max-width: 150px;
+      width: 150px;
+    }
+
+    @media (max-width: 600px) {
+      max-width: 140px;
+    }
+  }
+
+  &__logo {
+    width: 80px;
+    height: 54px;
+
+    @media (max-width: 380px) {
+      width: 140px;
+    }
+  }
+
+  &__nav {
+    display: flex;
+    align-items: center;
+    width: 100%;
+
+    @media (max-width: 800px) {
+      justify-content: flex-end;
+    }
+
+    @media (max-width: 400px) {
+      margin-left: 20px;
+    }
+
+    @media (max-width: 380px) {
+      margin-left: 0px;
+    }
+  }
+
+  &__nav-list {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+    width: 100%;
+
+    li.header__nav-item {
+      margin-bottom: 0;
+      padding-left: 0;
+    }
+  }
+
+  &__nav-list-header {
+    @media (min-width: 890px) {
+      display: none;
+    }
+
+    width: 100%;
+    display: flex;
+    justify-content: center;
+
+    padding: 8px 0;
+    position: relative;
+    box-shadow: 0 4px 8px 0 #0000003D,
+    0 0 1px 0 #00000052;
+  }
+
+  &__nav-item {
+    border-radius: 10px;
+    transition: 0.3s ease;
+    position: relative;
+    margin-bottom: 0;
+
+
+    &::before {
+      display: none;
+    }
+
+
+    @media (max-width: 800px) {
+      height: 50px;
+      align-items: center;
+      background: var(--color-light-grey2);
+      border-radius: 8px;
+      color: var(--text-color-white);
+      cursor: pointer;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      overflow: hidden;
+      padding: 4px;
+      width: 390px;
+
+      &:hover {
+        background: var(--header-links-background-hover);
+      }
+    }
+
+    @media (max-width: 479px) {
+      width: 95%;
+      margin-right: 0px;
+      margin-left: 0px;
+    }
+
+
+  }
+
+  &__nav-item--mobile {
+    a {
+      color: var(--sunflowerYellow);
+      border-bottom: 1px solid var(--sunflowerYellow);
+    }
+
+    @media (min-width: 890px) {
+      display: none;
+    }
+  }
+
+  &__nav-link {
+    transition: 0.3s ease;
+    color: var(--header-link-color);
+    font-weight: 600;
+
+    &--active {
+      color: var(--text-color-white);
+    }
+
+    @media (max-width: 800px) {
+      font-size: 22px;
+      color: var(--text-color-white);
+    }
+
+    @media (min-width: 800px) {
+      &:hover {
+        color: var(--text-color-white);
+      }
+    }
+  }
+
+  &__buttons-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    gap: 10px;
+    width: max-content;
+    margin-left: auto;
+
+    @media (max-width: 800px) {
+      justify-content: flex-end;
+    }
+
+    @media (max-width:600px) {
+      justify-content: center;
+      margin-left: 0;
+      width: 100%;
+    }
+
+
+  }
+
+
+  &__button-link--login-mobile,
+  &__button-link--registration-mobile {
+
+
+    @media (max-width: 350px) {
+      display: block;
+    }
+
+
+  }
+
+
+}
+
+
+
+.header__overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background: rgba(0, 0, 0, 0.5);
+  opacity: 0;
+  visibility: hidden;
+  transition: opacity 0.3s ease, visibility 0.3s ease;
+  z-index: 10;
+}
+
+.header__mobile-menu {
+  position: fixed;
+  top: 0;
+  right: -100%;
+  width: 300px;
+  height: 100vh;
+  background: white;
+  transition: right 0.3s ease;
+  z-index: 20;
+}
+
+.header__mobile-menu.open {
+  right: 0;
+}
+
+.header__overlay.visible {
+  opacity: 1;
+  visibility: visible;
+}
+
+.no-scroll {
+  overflow: hidden;
+}

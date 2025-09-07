@@ -1,0 +1,709 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="icon" type="image/x-icon" href="./images/favicon/favicon.ico" />
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon/favicon-32x32.png" />
+  <link rel="icon" type="image/png" sizes="16x16" href="./images/favicon/favicon-16x16.png" />
+
+  <title>Fat Pirate Casino - slots</title>
+
+  <meta property="og:title" content="Fat Pirate" />
+  <meta property="og:description" content="Fat Pirate Casino" />
+  <meta property="og:type" content="website" />
+  <meta property="og:image" content="./images/icons/fatpirate400x400.webp" />
+
+  <link rel="stylesheet" href="./css/main.min.css" />
+</head>
+
+<body class="body">
+  <div class="wrapper">
+    <header class="header">
+      <div class="container container--header">
+        <div class="header__wrapper">
+          <button class="header__burger" aria-label="burger">
+            <img src="./images/icons/burger/burger.svg" loading="lazy" height="30" width="30" alt="open menu"
+              class="header__burger-icon" />
+            <img src="./images/icons/burger/windowclose.svg" loading="lazy" height="30" width="30" alt="close menu"
+              class="header__burger-icon header__burger-icon--active" />
+          </button>
+          <div class="header__logo-wrapper">
+            <a href="./index.html" class="header__logo-link">
+              <img class="header__logo" width="68" height="42" src="./images/icons/logo-main.webp"
+                alt="Fat Pirate logo" />
+            </a>
+          </div>
+
+          <nav class="header__nav">
+            <div class="header__buttons-wrapper">
+              <div class="header__button">
+                <a href="./login.html" aria-label="log-in" class="header__button-link link--login">LOG IN</a>
+              </div>
+              <div class="header__button">
+                <button aria-label="registration"
+                  class="header__button-link registration__button tike">REGISTER</button>
+              </div>
+            </div>
+          </nav>
+
+          <!-- Мобильное меню -->
+
+          <div class="header__mobile-menu">
+            <div class="header__mobile-menu-header">
+              <img src="./images/icons/logo-main.webp" width="80" height="55" loading="lazy"
+                alt="logo - Fat Pirate Casino" />
+            </div>
+            <div class="header__mobile-nav-items">
+              <div class="header__mobile-nav-links-wrapper">
+                <div>
+                  <a href="./login.html" aria-label="log-in" class="link--login header__button-link--login-mobile">Log
+                    in</a>
+                </div>
+                <div>
+                  <button aria-label="registration"
+                    class="registration__button header__button-link--registration-mobile tike">REGISTER</button>
+                </div>
+              </div>
+
+              <div class="header__mobile-nav-item">
+                <a href="./app.html" rel="nofollow" class="header__mobile-nav-link"><img loading="lazy" width="30"
+                    height="28" src="./images/icons/menu-icons/app.png" loading="lazy" width="30" height="30"
+                    alt="app" />App</a>
+              </div>
+              <div class="header__mobile-nav-item">
+                <a href="./betting.html" rel="nofollow" class="header__mobile-nav-link"><img loading="lazy" width="30"
+                    height="28" src="./images/icons/menu-icons/betting.png" alt="betting" />Betting</a>
+              </div>
+
+              <div class="header__mobile-nav-item">
+                <a href="./bonus.html" rel="nofollow" class="header__mobile-nav-link"><img loading="lazy" width="30"
+                    height="28" src="./images/icons/menu-icons/bonus.png" alt="bonus" />Bonus</a>
+              </div>
+
+              <div class="header__mobile-nav-item">
+                <a href="./no-deposit-bonus.html" rel="nofollow" class="header__mobile-nav-link"><img loading="lazy"
+                    width="30" height="28" src="./images/icons/menu-icons/no-dep.png" alt="no-dep" />No Deposit
+                  Bonus</a>
+              </div>
+              <div class="header__mobile-nav-item">
+                <a href="./review-trustpilot.html" rel="nofollow" class="header__mobile-nav-link"><img loading="lazy"
+                    width="30" height="28" src="./images/icons/menu-icons/Review.png" alt="Review" />Review</a>
+              </div>
+              <div class="header__mobile-nav-item">
+                <a href="./free-spins.html" rel="nofollow" class="header__mobile-nav-link"><img loading="lazy"
+                    width="30" height="28" src="./images/icons/menu-icons/fs.png" alt="Free Spins" />Free Spins</a>
+              </div>
+              <div class="header__mobile-nav-item">
+                <a href="./promo-code.html" rel="nofollow" class="header__mobile-nav-link"><img loading="lazy"
+                    width="30" height="28" src="./images/icons/menu-icons/promo.png" alt="Promo Code" />Promo Code</a>
+              </div>
+              <!-- <div class="header__mobile-nav-item">
+                  <a
+                    href="./slots.html"
+                    rel="nofollow"
+                    class="header__mobile-nav-link active-menu"
+                    ><img
+                        src="./images/icons/menu-icons/Slots.png"
+                        loading="lazy"
+                        width="30"
+                        height="28"
+                        alt="Slots"
+                      />Slots</a
+                  >
+                </div> -->
+              <div class="header__mobile-nav-item has-submenu">
+                <div class="header__mobile-nav-link-wrapper header__mobile-nav-link-wrapper--slots">
+                  <a href="./slots.html" class="header__mobile-nav-link header__mobile-nav-link--slots"><img
+                      src="./images/icons/menu-icons/Slots.png" loading="lazy" width="30" height="28"
+                      alt="Slots" />Slots</a>
+                  <button class="submenu-toggle">
+                    <img src="./images/icons/arrow-accordion.svg" loading="lazy" width="20" height="20" alt="toggle" />
+                  </button>
+                </div>
+                <div class="header__submenu">
+                  <a href="./plinko.html" class="header__submenu-link">Plinko</a>
+                  <a href="./bingo.html" class="header__submenu-link">Bingo</a>
+                </div>
+              </div>
+
+              <div class="header__mobile-nav-item">
+                <a href="./withdrawal-times.html" rel="nofollow" class="header__mobile-nav-link"><img loading="lazy"
+                    width="30" height="28" src="./images/icons/menu-icons/wt.png" alt="Withdrawal Times" />Withdrawal
+                  Times</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <main class="main">
+      <div class="body-wrapper">
+        <div class="header__overlay"></div>
+        <div class="menu-wrapper">
+          <nav class="menu">
+            <div class="menu__decor"></div>
+
+            <ul class="menu__list">
+              <li class="menu__item">
+                <a href="./app.html" rel="nofollow" class="menu__link"><img loading="lazy" width="30" height="28"
+                    src="./images/icons/menu-icons/app.png" loading="lazy" width="30" height="30" alt="app" />App</a>
+              </li>
+              <li class="menu__item">
+                <a href="./betting.html" rel="nofollow" class="menu__link"><img loading="lazy" width="30" height="28"
+                    src="./images/icons/menu-icons/betting.png" alt="betting" />Betting</a>
+              </li>
+
+              <li class="menu__item">
+                <a href="./bonus.html" rel="nofollow" class="menu__link"><img loading="lazy" width="30" height="28"
+                    src="./images/icons/menu-icons/bonus.png" alt="bonus" />Bonus</a>
+              </li>
+
+              <li class="menu__item">
+                <a href="./no-deposit-bonus.html" rel="nofollow" class="menu__link"><img loading="lazy" width="30"
+                    height="28" src="./images/icons/menu-icons/no-dep.png" alt="no-dep" />No Deposit Bonus</a>
+              </li>
+
+              <li class="menu__item">
+                <a href="./review-trustpilot.html" rel="nofollow" class="menu__link"><img loading="lazy" width="30"
+                    height="28" src="./images/icons/menu-icons/Review.png" alt="Review" />Review</a>
+              </li>
+
+              <li class="menu__item">
+                <a href="./free-spins.html" rel="nofollow" class="menu__link"><img loading="lazy" width="30" height="28"
+                    src="./images/icons/menu-icons/fs.png" alt="Free Spins" />Free Spins</a>
+              </li>
+              <li class="menu__item">
+                <a href="./promo-code.html" rel="nofollow" class="menu__link"><img loading="lazy" width="30" height="28"
+                    src="./images/icons/menu-icons/promo.png" alt="Promo Code" />Promo Code</a>
+              </li>
+              <!-- <li class="menu__item active-menu">
+                 <a href="./slots.html" rel="nofollow" class="menu__link active-menu"><img
+                        src="./images/icons/menu-icons/Slots.png"
+                        loading="lazy"
+                        width="30"
+                        height="28"
+                        alt="Slots"
+                      />Slots</a>
+               </li> -->
+              <li class="menu__item active-menu">
+                <a href="./slots.html" rel="nofollow" class="menu__link active-menu menu__link-with-submenu">
+                  <span class="menu__text"><img src="./images/icons/menu-icons/Slots.png" alt="Slots" />Slots</span>
+                  <button class="menu__submenu-toggle" data-submenu-toggle>
+                    <img src="./images/icons/arrow-accordion.svg" loading="lazy" width="20" height="20" alt="Arrow"
+                      class="menu__arrow" />
+                  </button>
+                </a>
+                <ul class="menu__dropdown">
+                  <li class="menu__item">
+                    <a href="./plinko.html" rel="nofollow" class="menu__link">Plinko</a>
+                  </li>
+                  <li class="menu__item">
+                    <a href="./bingo.html" rel="nofollow" class="menu__link">Bingo</a>
+                  </li>
+                </ul>
+              </li>
+
+              <li class="menu__item">
+                <a href="./withdrawal-times.html" rel="nofollow" class="menu__link"><img loading="lazy" width="30"
+                    height="28" src="./images/icons/menu-icons/wt.png" alt="Withdrawal Times" />Withdrawal Times</a>
+              </li>
+            </ul>
+          </nav>
+        </div>
+        <div class="main-content__wrapper">
+          <section class="promo" id="promo">
+            <h1>Fat Pirate Slots</h1>
+            <p>
+              If you’re on the hunt for a thrilling slot experience packed
+              with personality, the Fat Pirate slots collection is ready to
+              deliver. This seafaring-themed casino isn’t just about the
+              visuals — it’s about immersing players in a world of adventure
+              with every spin. Whether you're chasing legendary jackpots or
+              enjoying low-volatility classics, Fat Pirate Casino offers a
+              robust selection of titles that cater to every kind of slot fan.
+            </p>
+            <div class="banner banner--bot tike">
+              <picture>
+                <source media="(min-width: 1200px)" srcset="./images/banners/banner9-1600.webp" width="1600"
+                  height="400" />
+                <source media="(min-width: 769px)" srcset="./images/banners/banner9-1200.webp" width="1200"
+                  height="300" />
+                <source media="(min-width: 451px)" srcset="./images/banners/banner9-768.webp" width="768"
+                  height="200" />
+                <source media="(max-width: 450px)" srcset="./images/banners/banner9-400.webp" width="450"
+                  height="150" />
+                <img src="./images/banners/banner9-1600.webp" loading="lazy" alt="Fat Pirate Slots" width="1600"
+                  height="400" />
+              </picture>
+              <div class="banner__content">
+                <div class="banner__title">200% UP TO €200</div>
+                <button aria-label="Registration" class="registration__button-banner tike">
+                  <span>PLAY NOW</span>
+                </button>
+              </div>
+            </div>
+            <p>
+              From fiery fruit machines to high-octane video slots filled with
+              bonus features, each Fat Pirate slot is crafted to keep you
+              entertained with smooth gameplay, vivid animations, and
+              competitive RTPs. Powered by leading game providers, the
+              platform features slots with diverse mechanics, including
+              cascading reels, expanding wilds, and buy bonus options, making
+              every voyage into the reels a rewarding one.
+            </p>
+          </section>
+          <section>
+            <h2>Types of Slot Games at Fat Pirate Casino</h2>
+            <p>
+              Fat Pirate slots offer a dynamic range of games, from classic
+              fruit machines to video slots packed with features like free
+              spins, wilds, and jackpots. All titles are fair and licensed,
+              use certified RNGs, and are fully optimised for mobile play—no
+              app is needed. Whether you’re playing for fun or real cash, you
+              can enjoy smooth, secure gameplay on any device. For the best
+              experience, stick to high RTP games, use bonuses wisely, and
+              always play within your budget.
+            </p>
+            <h3>Classic Slots at Fat Pirate Casino</h3>
+            <p>
+              If you’re drawn to the charm of traditional slot machines, slots
+              have plenty to offer. The classic slot section at Fat Pirate
+              Casino blends old-school simplicity with vivid graphics and
+              rewarding features. These games typically feature fewer reels
+              and paylines but pack a punch when it comes to fast gameplay and
+              nostalgic style. Whether it’s fruit symbols, sevens, or stars,
+              Fat Pirate slot titles keep the spirit of the original slot
+              experience alive, with added twists like bonus rounds and Hold
+              &amp; Win mechanics.
+            </p>
+            <h4>Noble Crown</h4>
+            <p>
+              This vibrant slot is a modern take on the fruit machine,
+              featuring lucky sevens, watermelon slices, and dazzling stars —
+              all under the royal banner of the Noble Crown. It's exclusive to
+              Fat Pirate, offering classic symbols with boosted payouts and
+              slick animations.
+            </p>
+            <h4>Le Bandit</h4>
+            <p>
+              Step into the cartoon-styled Wild West with Le Bandit. This game
+              mixes playful outlaw imagery with traditional slot action,
+              featuring Wild Reward posters and minimalistic reels. Ideal for
+              fans of simple gameplay with a humorous twist.
+            </p>
+            <h4>Thunder Coins – Hold and Win</h4>
+            <p>
+              A lightning-charged 3x3 slot, Thunder Coins focuses on bold
+              visuals and dynamic bonuses. The Hold and Win feature adds an
+              exciting layer of suspense, perfect for players who enjoy quick
+              spins with electrifying results.
+            </p>
+            <h3>Progressive Jackpot Slots at Fat Pirate Casino</h3>
+            <p>
+              If you’re on the hunt for treasure-sized wins, the slots jackpot
+              selection is packed with thrilling possibilities. These
+              progressive slots feature ever-growing prize pools that increase
+              with every wager placed, giving players a chance to unlock
+              massive payouts with a single lucky spin. Whether you’re after a
+              flashy modern hit or something mythological, Fat Pirate slot
+              jackpot titles provide high-volatility excitement and plenty of
+              swashbuckling surprises. Here’s a look at three standout
+              progressive jackpot slots available at Fat Pirate Casino:
+            </p>
+            <h4>Joker Jackpots</h4>
+            <p>
+              A colourful classic with a twist, Joker Jackpots delivers a mix
+              of luck, laughter, and potentially lucrative wins. With its
+              four-leaf clovers and jester-themed symbols, this slot offers
+              straightforward gameplay paired with the chance to trigger a
+              randomly awarded jackpot at any time.
+            </p>
+            <h4>Hawaiian Dream Jackpot</h4>
+            <p>
+              Turn up the heat with Hawaiian Dream Jackpot, a vibrant,
+              anime-style slot where beachside glamour meets jackpot action.
+              Featuring re-spins, bonus triggers, and tropical visuals, it’s
+              an immersive game where one lucky spin could launch a major win.
+            </p>
+            <h4>Poseidon Jackpot</h4>
+            <p>
+              Dive into deep-sea adventures in Poseidon Jackpot, where the god
+              of the ocean himself guards a treasure trove of potential
+              riches. With dramatic graphics, stormy reels, and a randomly
+              triggered jackpot mechanic, this underwater slot offers
+              mythological thrills and big payout possibilities.
+            </p>
+            <h3>Popular Slots at Fat Pirate Casino</h3>
+            <p>
+              If you're in the mood for high-quality reels, stunning visuals,
+              and rewarding bonus mechanics, the slots collection delivers
+              top-tier entertainment. From ancient myths to magical
+              adventures, these featured titles represent some of the most
+              popular and engaging games currently available on the platform.
+              Whether you’re chasing big wins or just spinning for fun, these
+              slot picks are worth checking out.
+            </p>
+            <h4>Lucky Lady’s Charm Deluxe</h4>
+            <p>
+              This beloved classic brings charm and luck together in a
+              polished package. With its dreamy pink visuals and a blonde
+              heroine guiding your fortune, Lucky Lady’s Charm Deluxe features
+              multipliers, free spins, and scatter wins that can build up
+              quickly. It’s a favourite among players who enjoy a lighter,
+              luck-driven slot experience.
+            </p>
+            <h4>Cash of Gods (Exclusive)</h4>
+            <p>
+              Take on the might of Zeus in this mythologically inspired
+              exclusive slot. Cash of Gods combines dramatic artwork with
+              divine bonus features, lightning-charged wilds, and the chance
+              to unlock powerful free spin rounds. A truly epic slot that
+              delivers both in atmosphere and payout potential.
+            </p>
+            <h4>Book of Lucky Mr. Patrick</h4>
+            <p>
+              For players who love adventure-themed slots with a touch of
+              Irish luck, Book of Lucky Mr Patrick brings enchanted forest
+              vibes and expanding symbols. Spin your way through ancient
+              secrets with the help of Mr. Patrick’s magical book and uncover
+              free spins and golden wins along the way.
+            </p>
+          </section>
+          <section>
+            <h2>Top Game Providers at Fat Pirate Casino</h2>
+            <p>
+              One of the standout features of Fat Pirate Casino is its curated
+              selection of game providers, hand-picked to deliver a premium
+              experience across every spin. This casino has teamed up with
+              some of the most respected and forward-thinking names in iGaming
+              to bring players a robust, visually rich, and highly rewarding
+              slot portfolio. Whether you're playing on desktop or mobile, Fat
+              Pirate Casino ensures you’re getting top-tier quality from some
+              of the biggest names in the business. Here’s a look at the
+              leading providers powering the Fat Pirate slots experience.
+            </p>
+            <h3>ELA Games</h3>
+            <p>
+              Known for vibrant visuals and engaging mechanics, ELA Games
+              brings a fresh approach to slot design. Their portfolio, though
+              compact, features bold themes and intuitive layouts that make
+              their games stand out in the slots collection.
+            </p>
+            <h3>Fazi</h3>
+            <p>
+              With a strong presence in both land-based and online gaming,
+              Fazi delivers high-quality slot content enriched with classic
+              appeal. Their titles often come with progressive jackpots and
+              straightforward gameplay, making them ideal for fans of
+              traditional slot experiences.
+            </p>
+            <h3>Spinomenal</h3>
+            <p>
+              One of the most prolific studios on the platform, Spinomenal, is
+              known for rapid development and stunning slot design. Their
+              games blend eye-catching animations with innovative bonus
+              structures—perfect for players seeking fast-paced,
+              high-volatility gameplay.
+            </p>
+            <h3>Gamzix</h3>
+            <p>
+              A rising star in the slot development world, Gamzix offers
+              colourful, feature-rich titles that are easy to play and packed
+              with multipliers, wilds, and interactive bonuses. Their
+              contribution to slot gaming includes both lighthearted and
+              intense thematic content.
+            </p>
+            <h3>Felix Gaming</h3>
+            <p>
+              Felix Gaming focuses on creating slots with a strong sense of
+              character and creativity. Each game is built with player
+              engagement in mind, combining atmospheric visuals with rewarding
+              mechanics that keep the reels spinning.
+            </p>
+          </section>
+          <section>
+            <h2>How Do You Start Playing Slots at Fat Pirate?</h2>
+            <p>
+              Embarking on your slot adventure is smooth sailing from the very
+              first click. Whether you're a complete newcomer or already a fan
+              of online gaming, Fat Pirate Casino makes it easy to get started
+              with its treasure trove of immersive slots. Just follow these
+              simple steps to begin:
+            </p>
+            <ol>
+              <li>
+                <strong>Create Your Account</strong>:<strong> </strong>Head
+                over to the official Fat Pirate Casino site and hit the
+                sign-up button. Registering takes a few minutes—fill in your
+                basic details, confirm your email, and complete the quick KYC
+                verification to unlock full access.
+              </li>
+              <li>
+                <strong>Make a Deposit</strong>:<strong> </strong>Choose from
+                trusted and secure payment options to fund your account. Fat
+                Pirate frequently offers deposit-match bonuses and free spins,
+                so be sure to check the Promotions page before making your
+                first payment.
+              </li>
+              <li>
+                <strong>Browse the Slot Selection</strong>:<strong> </strong>Dive into the slots collection using
+                filters to
+                explore by theme, provider, or game mechanics. Whether you
+                enjoy classic styles or bonus-packed video slots, there’s a
+                reel to match your style.
+              </li>
+              <li>
+                <strong>Activate a Bonus (Optional)</strong>:<strong> </strong>Boost your bankroll with a welcome offer,
+                reload
+                deal, or a free spins package—perfect for extending your
+                gameplay and increasing win potential.
+              </li>
+              <li>
+                <strong>Spin the Reels! </strong>Once you're ready, pick your
+                favourite slot, set your wager, and let the fun begin. With
+                smooth performance across all devices, you can enjoy high-seas
+                spins anytime, anywhere.
+              </li>
+            </ol>
+          </section>
+          <section>
+            <h2>The Best Slots Available</h2>
+            <p>
+              Fat Pirate Casino boasts a treasure trove of standout slot games
+              that cater to a wide range of player preferences. Whether you're
+              drawn to festive fun, animated characters, or unique bonus
+              mechanics, there’s always a title ready to deliver thrills and
+              real-money potential. Below are some of the most eye-catching
+              and entertaining slots currently featured on the platform:
+            </p>
+            <h3>Coins of Christmas – Hold &amp; Win</h3>
+            <p>
+              This festive favourite is packed with holiday cheer and
+              sparkling bonus features. Coins of Christmas combines classic
+              Hold &amp; Win mechanics with seasonal charm, offering players a
+              shot at glittering rewards through golden coin symbols, bonus
+              rounds, and free spin opportunities. Ideal for those who love a
+              touch of magic during their spins.
+            </p>
+            <h3>Le Viking</h3>
+            <p>
+              Step into a cartoon-style Norse adventure with Le Viking, a slot
+              that’s as playful as it is rewarding. Featuring a bold Viking
+              character and an epic soundtrack, this game delivers fierce
+              spins and satisfying visuals. It's a great pick for players who
+              enjoy lighthearted themes without sacrificing on features like
+              wilds and multipliers.
+            </p>
+            <h3>Fire and Gold: Cluster Breaker</h3>
+            <p>
+              Experience explosive cluster wins in Fire and Gold, where
+              ancient idols and glowing gems ignite the reels. This slot
+              introduces the innovative Cluster Breaker mechanic, allowing for
+              massive cascading wins. Visually vibrant and mechanically fresh,
+              it’s a must-try for those seeking something beyond traditional
+              paylines.
+            </p>
+          </section>
+          <section>
+            <h2>Tips and Strategies for Playing Fat Pirate Slots</h2>
+            <p>
+              Although Fat Pirate slots are driven by luck and Random Number
+              Generators (RNGs), there are still smart ways to approach the
+              game that can boost your experience—and potentially your
+              winnings. Whether you're spinning for the first time or have
+              already discovered your favourite slot, these tips will help you
+              enjoy a more strategic, responsible gaming session:
+            </p>
+            <ul>
+              <li>
+                <strong>Know Your Game Before You Spin</strong>:<strong> </strong>Every slot has its own rules, bonus
+                mechanics, and
+                payout structures. Check the paytable to understand how wilds,
+                scatters, and special features work. This way, you’ll know
+                what to look out for and when to bet higher or lower.
+              </li>
+              <li>
+                <strong>Prioritise High RTP Games</strong>:<strong> </strong>Return to Player (RTP) tells you how much a
+                game is
+                expected to pay out over time. Look for Fat Pirate slots with
+                RTPs of 96% or more for better long-term value, though
+                remember, nothing is guaranteed.
+              </li>
+              <li>
+                <strong>Stick to Your Budget</strong>:<strong> </strong>Set a
+                limit on how much you're comfortable spending before you start
+                spinning. Use Fat Pirate Casino's built-in responsible gaming
+                tools to manage your deposits, losses, and time spent playing.
+              </li>
+              <li>
+                <strong>Make the Most of Bonuses</strong>:<strong> </strong>Fat Pirate often offers free spins and
+                reload
+                bonuses. These can add extra value to your session, but always
+                review the wagering requirements and expiry times to avoid
+                surprises.
+              </li>
+              <li>
+                <strong>Try Games in Demo Mode First</strong>:<strong> </strong>Not sure about a new slot? Many titles
+                offer a demo
+                version, so you can test the waters without spending a dime.
+                It's a risk-free way to learn game mechanics before playing
+                with real cash.
+              </li>
+              <li>
+                <strong>Set Limits—and Stick to Them</strong>:<strong> </strong>It’s easy to get caught up in the thrill
+                of a
+                winning streak (or the frustration of a losing one). Set clear
+                limits for wins and losses, and be ready to walk away once you
+                hit them. That’s how smart pirates play!
+              </li>
+            </ul>
+          </section>
+          <section>
+            <h2>Endless Fun with Fat Pirate Casino Games</h2>
+            <p>
+              With a broad and exciting selection of titles, Fat Pirate slots
+              offer a standout experience for players of all styles. Whether
+              you prefer the timeless charm of classic fruit machines or the
+              fast-paced action of feature-rich video slots, there’s something
+              to suit every taste and mood.
+            </p>
+            <p>
+              Powered by leading providers, featuring quick payouts, and
+              operating under strict licensing standards, Fat Pirate Casino
+              guarantees both security and entertainment. Coupled with
+              responsible gaming tools, helpful support, and a seamless mobile
+              experience, it's a great choice for anyone seeking quality slots
+              in a safe, reliable environment.
+            </p>
+          </section>
+          <section class="accordion">
+            <h2>FAQ</h2>
+
+            <div class="accordion-item">
+              <h3 class="accordion-title">What are Fat Pirate slots?</h3>
+              <p class="accordion-content">
+                Fat Pirate slots are a wide selection of online slot games
+                available at the Fat Pirate Casino. The collection includes
+                everything from retro 3-reel machines to modern video slots,
+                jackpot titles, and exclusive releases—each designed with
+                unique features and thrilling gameplay.
+              </p>
+            </div>
+
+            <div class="accordion-item">
+              <h3 class="accordion-title">
+                Are Fat Pirate games fair and licensed?
+              </h3>
+              <p class="accordion-content">
+                Yes. All slot titles are powered by licensed providers, and
+                certified random number generators (RNGs) are used to
+                guarantee fair results. Fat Pirate Casino operates under a
+                trusted gaming licence, ensuring transparency and player
+                protection.
+              </p>
+            </div>
+
+            <div class="accordion-item">
+              <h3 class="accordion-title">
+                Can I play Fat Pirate slots on mobile?
+              </h3>
+              <p class="accordion-content">
+                Absolutely. Every slot is fully optimised for mobile devices.
+                You can enjoy seamless gameplay directly from your browser on
+                iOS and Android—no app required.
+              </p>
+            </div>
+
+            <div class="accordion-item">
+              <h3 class="accordion-title">
+                What’s the best strategy for playing slots?
+              </h3>
+              <p class="accordion-content">
+                While outcomes are based on luck, playing responsibly is key.
+                Choose high RTP games, set limits, and use demo mode to learn
+                game mechanics before wagering. Using bonuses wisely can also
+                stretch your playtime and potential rewards.
+              </p>
+            </div>
+
+            <div class="accordion-item">
+              <h3 class="accordion-title">
+                Do slots include free spins or bonuses?
+              </h3>
+              <p class="accordion-content">
+                Many Fat Pirate slots feature bonus rounds, wild symbols,
+                multipliers, and free spins. These add extra layers of
+                excitement and increase your chances of winning big.
+              </p>
+            </div>
+          </section>
+        </div>
+      </div>
+    </main>
+  </div>
+
+  <footer class="footer">
+    <div class="footer__wrapper">
+      <div class="providers">
+        <div class="paySystems__wrapper">
+          <div class="paySystems__item">
+            <img src="./images/icons/paySystems/visalarge.svg" width="130" height="76" alt="Visa" loading="lazy" />
+          </div>
+          <div class="paySystems__item">
+            <img src="./images/icons/paySystems/mastercardlarge.svg" width="130" height="76" alt="MasterCard"
+              loading="lazy" />
+          </div>
+          <div class="paySystems__item">
+            <img src="./images/icons/paySystems/interac-2.svg" width="130" height="76" alt="Interac" loading="lazy" />
+          </div>
+        </div>
+      </div>
+
+      <div class="footer__main">
+        <nav class="footer__nav">
+          <ul class="footer__nav-list">
+            <li class="footer__nav-item">
+              <a href="./contacts.html" class="footer__nav-link">Contacts</a>
+            </li>
+            <li class="footer__nav-item">
+              <a href="./policy.html" class="footer__nav-link">Privacy Notice</a>
+            </li>
+            <li class="footer__nav-item">
+              <a href="./terms.html" class="footer__nav-link">Terms & Conditions</a>
+            </li>
+            <li class="footer__nav-item">
+              <a href="./responsible-gaming.html" class="footer__nav-link">Responsible Gambling</a>
+            </li>
+            <li class="footer__nav-item">
+              <a href="./help-centre.html" class="footer__nav-link">Help Centre</a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+      <div class="footer__images-info">
+        <img src="./images/icons/18+.svg" height="40" width="40" loading="lazy" alt="18+ only logo" />
+        <img src="./images/icons/unoaffiliates.svg" height="40" width="70" loading="lazy" alt="unoaffiliates logo" />
+      </div>
+
+      <div class="footer__copywrite">
+        <p class="footer__copywrite-text1">
+          Gambling can be addictive. Play responsibly. FatPirate.com only
+          accepts customers over 18 years of age.
+        </p>
+        <div class="footer__copywrite-text2">
+          2025 © FatPirate.com All rights reserved.
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <button aria-label="scroll" id="scrollToTopBtn" class="scrollToTopBtn">
+    <img loading="lazy" width="24" height="24" src="./images/icons/buttons/up-arrow.png" alt="arrow-up" />
+  </button>
+  <script type="module" src="./scripts/main.js"></script>
+</body>
+
+</html>

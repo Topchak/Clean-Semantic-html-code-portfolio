@@ -1,0 +1,66 @@
+.responsible-gaming__wrapper {
+  max-width: 800px;
+  margin: 0 auto;
+  color: #c6ab94;
+
+  @media (max-width:600px) {
+    margin-top: 80px;
+  }
+
+  h2 {
+    color: #c6ab94;
+    font-size: 32px;
+    margin-bottom: 30px;
+    margin-top: 40px;
+
+    @media (max-width:767px) {
+      font-size: 26px;
+    }
+  }
+
+  p {
+    margin-bottom: 30px;
+    font-size: 16px;
+
+    @media (max-width:767px) {
+      margin-bottom: 20px;
+    }
+
+  }
+
+  ul {
+    padding-left: 0;
+
+    li {
+      margin-top: 15px;
+
+      &::before {
+        background: var(--text-color-privacy);
+
+      }
+    }
+  }
+
+  h3 {
+    text-align: left;
+    margin-bottom: 30px;
+    font-size: 24px;
+    line-height: 1.1;
+
+    @media (max-width:767px) {
+      font-size: 20px;
+      margin-bottom: 20px;
+    }
+  }
+
+  a {
+    color: var(--text-color-links);
+    text-decoration: underline;
+    transition: 0.3s ease;
+
+    &:hover {
+      color: var(--text-color-links-hover);
+    }
+  }
+
+}
